@@ -1,0 +1,24 @@
+#wins-losses-table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#wins-losses-table, #wins-losses-table {
+    border: 1px solid gold;
+    padding: 8px;
+}
+
+
+#wins-losses-table,
+#game {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: maroon;
+    color: gold;
+}
+
+body {
+    /* background-image: url("../images/u-of-m_logo.jpg") */
+}

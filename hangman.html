@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman Game</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- local CSS settings which will leverage the Bootstrap classes and layout -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+
+</head>
+
+<body>
+
+    <div id="game">
+        <!-- Create greeting -->
+        <h1 id="rps-greeting">Hangman Game</h1>
+    </div>
+
+    <div class="container bordered">
+        <div class="row">
+            <div class="col-md-6 bordered">
+                <div class="row bordered">
+                    <div class="col-md-9">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Hangman Stats</th>
+                                    <th colspan="2" scope="col">Wins</th>
+                                    <th colspan="2" scope="col">Losses</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Wins:</th>
+                                    <td colspan="2">
+
+                                        <span id="wins-total">0</span>
+                                    </td>
+                                    <td colspan="2">
+                                        <span id="losses-total">0</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row ">User Guesses:</th>
+                                    <td colspan="3 ">[
+                                        <span id="user-guesses"> </span>]</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row ">Guesses Left:</th>
+                                    <td colspan="3 ">
+                                        <span id="guesses-left">9</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div class="col-md-3">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 bordered ">
+                <div class="row bordered">
+                    <div class="col-md-9">
+                        <table class="table bordered">
+                            <thead>
+                                <tr>
+                                    <th colspan="5" scope="col">Hangman 1.0</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>
+
+                                        <span id="y-y">
+                                            </span>
+                                    </td>
+                                    <td>
+                                        <span id="x-x">
+                                             </span>
+                                    </td>
+                                     </tr>
+                                <tr>
+                                    <th scope="row ">Guess this word: </th>
+                                    <td colspan="4">
+                                        <span id="guess-this-word"> </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row "></th>
+                                    <td colspan="3 ">
+                                        <span> </span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!-- end HTML -->
+
+        <!-- link the game.js file-->
+        <script type="text/javascript" src="javascript/game.js"></script>
+
+        <!-- jQuery CDN -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
+            crossorigin="anonymous "></script>
+
+        <!-- Popper JS CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
+            crossorigin="anonymous "></script>
+
+        <!-- Bootstrap JavaScript CDN -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
+            crossorigin="anonymous "></script>
+
+</body>
+
+</html>

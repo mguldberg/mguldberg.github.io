@@ -1,3 +1,4 @@
+<!-- first homework assignment - contact.html -->
 <!DOCTYPE html>
 <html lang="en-us">
 
@@ -7,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>MG's Bio</title>
+    <title>Contact MG</title>
 
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
@@ -31,16 +32,16 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">  <!-- bootstrap active class for a different color to denote the page we are currently on -->
-                        <a class="nav-link" href="index.html">About
-                            <span class="sr-only">(current)</span>
-                        </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                    <li class="nav-item active"><!-- active tag for a different color to denote the page we are currently on -->
+                        <a class="nav-link" href="contact.html">Contact
+                                <span class="sr-only">(current)</span>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -56,41 +57,43 @@
             <div class="row middle-content-container">
 
                 <!-- open first column in row in middle container - contains the content -->
-                <div class="col-sm-12 col-md-8">
+                <div class=" col-md-8"> <!-- col-sm-12 -->
                     <div id="about-me-container">
                         <div class="page-header">
-                            <h1 id="aboutmetitle">About Me</h1>
+                            <h3>Contact</h3>
                         </div>
 
                         <!-- open row in middle content container -->
                         <div class="row">
                             <div class="col-md-12">
-                                <div>
-                                    <img src="assets/images/IMG_0323_b.jpg" id="headshotimg" alt="Placeholder" class="img-thumbnail">
-                                </div>
-                                <div>
-                                    <p id="aboutmetext">
-                                        I'm a driven people leader. I lead my teams to be innovative in solving technical problems and delivering excellent business
-                                        results.
-                                        <br>
-                                        <br> My expertise is in leading my team to architect, plan, and operate highly available
-                                        24/7 systems and networks. These include SONET, Ethernet, IMS, and VoLTE.
-                                        <br>
-                                        <br> Additionly, I've quickly learned Full Stack Web development. In my spare time I
-                                        enjoy working on home automation projects linked to an Android mobile app.
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- close first column in row in middle content container -->
 
+                                <!-- set up form for people to submit to contact me - button and form don't do anything with the data yet.  -->
+                                <section id="middletextcontent">
+                                    <form action="#">
+                                        <label class="contacttext">Name</label>
+                                        <input type="text" class="contacttext" name="fullname" placeholder="John Smith">
+
+                                        <label class="contacttext">Email</label>
+                                        <input type="text" class="contacttext" name="e_mail" placeholder="example@gmail.com">
+
+                                        <label class="contacttext">Subject</label>
+                                        <textarea id="subject" name="subject" style="height:200px"></textarea>
+
+                                        <input type="submit" value="Submit">
+                                    </form>
+
+                                </section>
+                            </div>
                         </div>
                         <!-- close row in middle content container -->
                     </div>
                 </div>
-                <!-- close first column in row in middle container - contains the content -->
+                <!-- close first column in row in middle content container -->
+
+
 
                 <!-- open second column in row in middle container - contains the connect with me content -->
-                <div class="col-sm-12 col-md-4">
+                <div class="col-md-4"> <!-- col-sm-12 -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h3 class="panel-title">Connect With Me</h3>
@@ -111,8 +114,8 @@
                 <!-- close second column in row in middle container - contains the connect with me content -->
             </div>
         </div>
-            <!-- close bootstrap container - leveraging the auto sizing - no wallpaper on this -->
-    </div>
+        <!-- close bootstrap container - leveraging the auto sizing - no wallpaper on this -->
+    </div>    
     <!-- close middle section vertically, inludes the wallpaper and main content -->
 
 
@@ -123,7 +126,11 @@
             </div>
         </footer>
 
-
+        <!-- <script  type="text/javascript">
+            for (i = 0; i < 5; i++) {
+                document.write( "I am " + i + "<br>");
+            }
+        </script> -->
 
         <!-- jQuery CDN -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -138,7 +145,5 @@
             crossorigin="anonymous"></script>
 
 </body>
-
-</html>
 
 </html>
