@@ -21,16 +21,20 @@ audioWinning.setAttribute("src", "assets/images/Rouser.mp3");
 var audioLosing = document.createElement("audio");
 audioLosing.setAttribute("src", "assets/images/Price-is-right-losing-horn.mp3");
 
-//flag for is game is over don't register any other mouse clicks...only Restart
-var gameOver = false;
+//flags for is battle in progress or game is over -> don't register any other mouse clicks...only Restart
+var battleInProgeess = false;
+var gameOverOrPaused = false;
+var characterPicked = false;
 
 //character objects
 var reyPlayer = {
     name: "Rey",
     codeName: "rey",
     healthPoints: 70,
-    attackPower: 8,
-    counterAttackPower: 4,
+    healthPointsInit: 70,
+    attackPower: 7,
+    attackPowerInit: 7,
+    counterAttackPower: 5,
     attackPointsIncrease: function () {
         this.attackPower = this.attackPower * 2;
     }
@@ -40,7 +44,9 @@ var lukeSkywalkerPlayer = {
     name: "Luke Skywalker",
     codeName: "luke-skywalker",
     healthPoints: 60,
-    attackPower: 10,
+    healthPointsInit: 60,
+    attackPower: 13,
+    attackPowerInit: 13,
     counterAttackPower: 12,
     attackPointsIncrease: function () {
         this.attackPower = this.attackPower * 2;
@@ -51,7 +57,9 @@ var kyloRenPlayer = {
     name: "Kylo-Ren",
     codeName: "kylo-ren",
     healthPoints: 50,
+    healthPointsInit: 50,
     attackPower: 7,
+    attackPowerInit: 7,
     counterAttackPower: 10,
     attackPointsIncrease: function () {
         this.attackPower = this.attackPower * 2;
@@ -62,7 +70,9 @@ var generalHuxPlayer = {
     name: "General Hux",
     codeName: "general-hux",
     healthPoints: 20,
+    healthPointsInit: 20,
     attackPower: 3,
+    attackPowerInit: 3,
     counterAttackPower: 2,
     attackPointsIncrease: function () {
         this.attackPower = this.attackPower * 2;
@@ -88,6 +98,7 @@ function showElement(elementName) {
 function changeTextInDisplay(elementName, textToChange) {
     console.log(elementName);
     $(elementName).text(textToChange);
+
 }
 
 // // play a sound upon winning
@@ -121,29 +132,28 @@ $(document).ready(function () {
 
     $(".row-2").on("click", ".characters-star-wars-top", function () {
 
-        //don't allow any other clicks to register if game is over
-        if (gameOver == true) {
+        //don't allow any other clicks to register if game is over or battle is in progress
+        if (battleInProgeess == true || gameOverOrPaused == true) {
             return;
         }
 
         console.log("inthe top character selection .on\(\"click\"\) function ")
-
         console.log("inside the row-2 clicked");
         console.log($(this).val());
 
         // If initial click received -> hide instruction bar 
         showElement(".row-1");
 
+        //change text on row-3 and hide the enemies text
         $(".row-3 p").text("Enemies Available To Attack");
         hideElement(".row-5 #enemies-text-hide");
 
         // user selects the Star Wars Character they want to fight with.
         // hide the other choices, but make the others appear on line 2
+        // set characterSelected for battle purposes
         switch ($(this).val()) {
 
-
             case "rey":
-                //hide elements on row 2
                 hideElement(".row-2 #luke-skywalker");
                 hideElement(".row-2 #kylo-ren");
                 hideElement(".row-2 #general-hux");
@@ -197,10 +207,14 @@ $(document).ready(function () {
         //hide text of battle winner
         hideElement(".row-7 #battle-winner-text");
 
-        //don't allow any other clicks to register if game is over
-        if (gameOver == true) {
+        //don't allow any other clicks to register if game is over or battle is in progress
+        if (battleInProgeess == true || gameOverOrPaused == true) {
             return;
         }
+
+        //set flag that battle has begun
+        battleInProgeess = true;
+        characterPicked = true;
 
         // user selects the Star Wars Character they want to fight against
         // show the selection on row 6, but make the others on row 4 slide left
@@ -238,10 +252,11 @@ $(document).ready(function () {
         }
     });
 
+    //attack button click handler
     $(".row-5").on("click", function () {
 
-        //don't allow any other clicks to register if game is over
-        if (gameOver == true) {
+        //don't allow any other clicks to register if game is over or waiting for new character selection
+        if (gameOverOrPaused == true || characterPicked == false ) {
             return;
         }
 
@@ -273,16 +288,30 @@ $(document).ready(function () {
         changeTextInDisplay(".row-6 #" + enemySelected.codeName + " #" + enemySelected.codeName + "-health", enemySelected.healthPoints);
 
 
-        if (enemySelected.healthPoints <= 0) {
+
+        //if your health points is <= 0 you lose
+        //TODO: still need to handle tie scenario
+        if (characterSelected.healthPoints <= 0) {
+            console.log("you lose");
+            hideElement(".row-7 #bottom-text-area");
+            showElement(".row-7 #loser-text-area");
+            showElement(".row-7 #restart-button");
+            audioLosing.play();
+            gameOverOrPaused = true;
+            changeTextInDisplay(".row-6 #" + enemySelected.codeName + " #" + enemySelected.codeName + "-health", "WINNER!!");
+        }
+        else if (enemySelected.healthPoints <= 0) {
             //increment number of enemies defeated...if this == 3 you win!
             enemiesDefeated++;
             //hide image of defeated enemy
             hideElement(".row-6 #" + enemySelected.codeName);
             //hide stats text box
             hideElement(".row-7 #bottom-text-area");
-            //setup and display that you defeated an enemy and what to do to continue
+            //setup and display that you defeated an enemy and what to do to contnue
             changeTextInDisplay("#battle-winner-text #defender-name", enemySelected.name);
             showElement(".row-7 #battle-winner-text");
+            battleInProgeess = false;
+            characterPicked = false;
         }
 
         //if enemiesDefeated == 3 you win!
@@ -291,19 +320,12 @@ $(document).ready(function () {
             showElement(".row-7 #restart-button")
             showElement(".row-7 #winner-text-area");
             hideElement("#bottom-text-area");
+            hideElement("#battle-winner-text");
             audioWinning.play();
+            gameOverOrPaused = true;
         }
 
 
-        //if your health points is <= 0 you lose
-        if (characterSelected.healthPoints <= 0) {
-            console.log("you lose");
-            hideElement(".row-7 #bottom-text-area");
-            showElement(".row-7 #loser-text-area");
-            showElement(".row-7 #restart-button");
-            audioLosing.play();
-            gameOver = true;
-        }
 
         console.log("attack power::" + characterSelected.attackPower);
         //increase attack power of the character selected
@@ -314,6 +336,68 @@ $(document).ready(function () {
     });
 
     $("#restart-button").on("click", function () {
+
+        //set up intial game screen - show all chars and hide 'you character' 
+        // and reset the instructions to pick a character
+        hideElement(".row-1");
+        showElement(".row-2 #rey");
+        showElement(".row-2 #luke-skywalker");
+        showElement(".row-2 #kylo-ren");
+        showElement(".row-2 #general-hux");
+        $(".row-3 p").text("Pick the character you want to be for battle!");
+
+        //reset health points and then write them to the screen
+        reyPlayer.healthPoints = reyPlayer.healthPointsInit;
+        lukeSkywalkerPlayer.healthPoints = lukeSkywalkerPlayer.healthPointsInit;
+        kyloRenPlayer.healthPoints = kyloRenPlayer.healthPointsInit;
+        generalHuxPlayer.healthPoints = generalHuxPlayer.healthPointsInit;
+        changeTextInDisplay(".row-2 #rey-health", reyPlayer.healthPoints);
+        changeTextInDisplay(".row-2 #luke-skywalker-health", lukeSkywalkerPlayer.healthPoints);
+        changeTextInDisplay(".row-2 #kylo-ren-health", kyloRenPlayer.healthPoints);
+        changeTextInDisplay(".row-2 #general-hux-health", generalHuxPlayer.healthPoints);
+        console.log(reyPlayer.attackPower+" " + reyPlayer.attackPowerInit);
+        
+        //reset attack points for all characters
+        reyPlayer.attackPower = reyPlayer.attackPowerInit;
+        lukeSkywalkerPlayer.attackPower = lukeSkywalkerPlayer.attackPowerInit;
+        kyloRenPlayer.attackPower = kyloRenPlayer.attackPowerInit;
+        generalHuxPlayer.attackPower = generalHuxPlayer.attackPowerInit;
+
+        // Hide all of row 4 - middle row and put placeholder back to match the game example
+        // as well as enemies text that needs to be shown at init
+        hideElement(".row-4 #rey");
+        hideElement(".row-4 #luke-skywalker");
+        hideElement(".row-4 #kylo-ren");
+        hideElement(".row-4 #general-hux");
+        showElement(".row-4 #placeholder")
+        showElement(".row-5 #enemies-text-hide");
+
+        // hide all of row 6 characters for init 
+        hideElement(".row-6 #rey");
+        hideElement(".row-6 #luke-skywalker");
+        hideElement(".row-6 #kylo-ren");
+        hideElement(".row-6 #general-hux");
+        changeTextInDisplay(".row-6 #rey-health", reyPlayer.healthPoints);
+        changeTextInDisplay(".row-6 #luke-skywalker-health", lukeSkywalkerPlayer.healthPoints);
+        changeTextInDisplay(".row-6 #kylo-ren-health", kyloRenPlayer.healthPoints);
+        changeTextInDisplay(".row-6 #general-hux-health", generalHuxPlayer.healthPoints);
+        
+
+        hideElement(".row-7 #bottom-text-area");
+        hideElement(".row-7 #battle-winner-text");
+        hideElement(".row-7 #winner-text-area");
+        hideElement(".row-7 #loser-text-area");
+        hideElement(".row-7 #restart-button");
+
+        //tracks enemies defeated.  if this == 3 you win!
+        enemiesDefeated = 0;
+
+
+        //flags for is battle in progress or game is over -> don't register any other mouse clicks...only Restart
+        battleInProgeess = false;
+        gameOverOrPaused = false;
+        characterPicked = false;
+
 
         console.log("reset function");
     });

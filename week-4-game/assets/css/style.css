@@ -16,6 +16,13 @@ body {
 
 }
 
+/* set size  */
+.card img {
+    height: 90px;
+  width: 90px;
+}
+
+/* make text stand out against black background */
 p {
     font-size: 12px;
     text-shadow: 
@@ -25,6 +32,7 @@ p {
         0 -1px black;
 }
 
+/* set image colors at each level */
 .characters-star-wars-top{
         display:table;
         border:5px solid green;
