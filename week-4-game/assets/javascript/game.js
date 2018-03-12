@@ -21,6 +21,10 @@ audioWinning.setAttribute("src", "assets/images/Rouser.mp3");
 var audioLosing = document.createElement("audio");
 audioLosing.setAttribute("src", "assets/images/Price-is-right-losing-horn.mp3");
 
+//attack sound
+var audioAttack = document.createElement("audio");
+audioAttack.setAttribute("src", "assets/images/Lightsaber Clash-SoundBible.com-203518049.mp3");
+
 //flags for is battle in progress or game is over -> don't register any other mouse clicks...only Restart
 var battleInProgeess = false;
 var gameOverOrPaused = false;
@@ -101,22 +105,13 @@ function changeTextInDisplay(elementName, textToChange) {
 
 }
 
-// // play a sound upon winning
-// function ding() {
-//     $("body").append('<embed src="../images/rouser.mp3" autostart=false autoplay=false type="audio/mpeg" loop="false" width="0" height="0" id="beep" enablejavascript="true" />');
-//     setTimeout(function(){ $("#beep").remove(); },2000);
-// }
-
+//
 // MAIN PROCESS
 // ==============================================================================
 
 // Captures keyboard input. Depending on the letter pressed it will "call " (execute) different functions.
 $(document).ready(function () {
 
-
-    // Play an audio track of the band.
-    // var audio = new Audio("$HOME/Documents/uOfMinnesotaBootCampHomeworks/week-4-game/assets/images/Rouser.mp3");
-    // audio.play();
 
     //     // Captures the key press, converts it to lowercase, and saves it to a variable.
     //     var letter = String.fromCharCode(event.which).toLowerCase();
@@ -256,9 +251,16 @@ $(document).ready(function () {
     $(".row-5").on("click", function () {
 
         //don't allow any other clicks to register if game is over or waiting for new character selection
-        if (gameOverOrPaused == true || characterPicked == false ) {
+        if (gameOverOrPaused == true || characterPicked == false) {
             return;
         }
+
+        //attack sound
+        var audioAttack = document.createElement("audio");
+        audioAttack.setAttribute("src", "assets/images/Lightsaber Clash-SoundBible.com-203518049.mp3");
+
+        //play sound when attack button is pressed
+        audioAttack.play();
 
         console.log("inthe bottom attack selection .on\(\"click\"\) function ")
         console.log("inside the row-4 clicked");
@@ -355,8 +357,8 @@ $(document).ready(function () {
         changeTextInDisplay(".row-2 #luke-skywalker-health", lukeSkywalkerPlayer.healthPoints);
         changeTextInDisplay(".row-2 #kylo-ren-health", kyloRenPlayer.healthPoints);
         changeTextInDisplay(".row-2 #general-hux-health", generalHuxPlayer.healthPoints);
-        console.log(reyPlayer.attackPower+" " + reyPlayer.attackPowerInit);
-        
+        console.log(reyPlayer.attackPower + " " + reyPlayer.attackPowerInit);
+
         //reset attack points for all characters
         reyPlayer.attackPower = reyPlayer.attackPowerInit;
         lukeSkywalkerPlayer.attackPower = lukeSkywalkerPlayer.attackPowerInit;
@@ -381,7 +383,7 @@ $(document).ready(function () {
         changeTextInDisplay(".row-6 #luke-skywalker-health", lukeSkywalkerPlayer.healthPoints);
         changeTextInDisplay(".row-6 #kylo-ren-health", kyloRenPlayer.healthPoints);
         changeTextInDisplay(".row-6 #general-hux-health", generalHuxPlayer.healthPoints);
-        
+
 
         hideElement(".row-7 #bottom-text-area");
         hideElement(".row-7 #battle-winner-text");
