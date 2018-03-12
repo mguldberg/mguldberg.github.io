@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Car Adventures!</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- local CSS settings which will leverage the Bootstrap classes and layout -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- font to use - looks like 1980s 8-bit game graphics -->
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- JQuery -->
+    <!-- <script src="https://code.jquery.com/jquery.js"></script> -->
+
+    <!-- add game.js -->
+    <script src="assets/javascript/game.js"></script>
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row content">
+            <div class="col-sm-9">
+                <div class="row-0">
+                    <div class="card text-right bg-transparent text-primary">
+                        <h4>Star Wars RPG - c. 1982</h4>
+                    </div>
+                </div>
+                <div class="row-1 d-none">
+                    <div class="col-md-12">
+                        <div class="card text-left bg-transparent text-primary">
+                            <p>Your chosen character</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-2">
+                    <div id="rey" class="col-sm-3 ">
+                        <button class="card borderbox characters-star-wars-top " value="rey">
+                            <div class="text-center ">Rey</div>
+                            <div class="col-md-12 ">
+                                <img src="assets/images/inspector-gadget.jpg" class="img-fluid ">
+                            </div>
+                            <div id="rey-health" class="text-center ">70</div>
+                        </button>
+                    </div>
+                    <div id="luke-skywalker" class="col-sm-3 ">
+                        <button class="card borderbox characters-star-wars-top" value="luke-skywalker">
+                            <div class="text-center ">Luke Skywalker</div>
+                            <div class="col-md-12 ">
+                                <img src="assets/images/ISD-I.png " class="img-fluid ">
+                            </div>
+                            <div id="luke-skywalker-health" class="text-center ">60</div>
+                        </button>
+                    </div>
+                    <div id="kylo-ren" class="col-sm-3 ">
+                        <button class="card borderbox  characters-star-wars-top " value="kylo-ren">
+                            <div class="text-center ">Kylo-Ren</div>
+                            <div class="col-md-12 ">
+                                <img src="assets/images/u-of-m-block-m.png" class="img-fluid ">
+                            </div>
+                            <div id="kylo-ren-health" class="text-center ">50</div>
+                        </button>
+                    </div>
+                    <div id="general-hux" class="col-sm-3">
+                        <button class="card borderbox characters-star-wars-top " value="general-hux">
+                            <div class="text-center ">General Hux</div>
+                            <div class="col-md-12 ">
+                                <img src="assets/images/linkedin.png" class="img-fluid ">
+                            </div>
+                            <div id="general-hux-health" class="text-center ">20</div>
+                        </button>
+                    </div>
+                </div>
+                <div class="row-3">
+                    <div class="col-md-12">
+                        <div class="card text-left bg-transparent text-primary">
+                            <p>Pick the character you want to be for battle!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row-4">
+                    <div id="rey" class="col-sm-3 d-none">
+                        <button class="card borderbox characters-star-wars-middle" value="rey">
+                            <div class="text-center">Rey</div>
+                            <div class="col-md-12 ">
+                                <img src="assets/images/inspector-gadget.jpg" class="img-fluid ">
+                            </div>
+                            <div class="text-center">70</div>
+                        </button>
+                    </div>
+                    <div id="luke-skywalker" class="col-sm-3 d-none">
+                        <button class="card borderbox characters-star-wars-middle" value="luke-skywalker">
+                            <div class="text-center ">Luke Skywalker</div>
+                            <div class="col-md-12 ">
+                                <img src="assets/images/ISD-I.png" class="img-fluid ">
+                            </div>
+                            <div class="text-center ">60</div>
+                        </button>
+                    </div>
+                    <div id="kylo-ren" class="col-sm-3 d-none">
+                        <button class="card borderbox characters-star-wars-middle" value="kylo-ren">
+                            <div class="text-center ">Kylo-Ren</div>
+                            <div class="col-md-12 ">
+                                <img src="assets/images/u-of-m-block-m.png" class="img-fluid ">
+                            </div>
+                            <div class="text-center ">50</div>
+                        </button>
+                    </div>
+                    <div id="general-hux" class="col-sm-3 d-none">
+                        <button class="card borderbox characters-star-wars-middle" value="general-hux">
+                            <div class="text-center ">General Hux</div>
+                            <div class="col-md-12 ">
+                                <img src="assets/images/linkedin.png " class="img-fluid ">
+                            </div>
+                            <div class="text-center ">20</div>
+                        </button>
+                    </div>
+                    <div class="col-sm-3 ">
+                        <!-- placeholder to match row gap in the assignment -->
+                        <button class="card borderbox characters-star-wars-middle invisible">
+                            <div class="text-center ">placeholder</div>
+                            <div class="col-md-8 ">
+                                <img src="assets/images/linkedin.png " class="img-fluid ">
+                            </div>
+                            <div class="text-center ">placeholder</div>
+                        </button>
+                    </div>
+                </div>
+                <div class="row-5">
+                    <div class="col-md-12">
+                        <div class="card text-left bg-transparent text-primary bottom-text-area">
+                            <p id="enemies-text-hide">Enemies Available To Attack</p>
+                            <p>Fight Section</p>
+                        </div>
+                    </div>
+                    <button id="attack-button" class="btn btn-primary" value="attack">
+                        <h5>Attack</h5>
+                    </button>
+                    <div class="col-md-12">
+                        <div class="card text-left bg-transparent text-primary">
+                            <br>
+                            <p>Defender</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row-6">
+                    <div id="rey" class="col-sm-3 d-none ">
+                        <button class="card borderbox characters-star-wars-bottom " value="rey">
+                            <div class="text-center ">Rey</div>
+                            <div class="col-md-12 ">
+                                <img src="assets/images/inspector-gadget.jpg" class="img-fluid ">
+                            </div>
+                            <div id="rey-health" class="text-center">70</div>
+                        </button>
+                    </div>
+                    <div id="luke-skywalker" class="col-sm-3 d-none ">
+                        <button class="card borderbox characters-star-wars-bottom" value="luke-skywalker">
+                            <div class="text-center ">Luke Skywalker</div>
+                            <div class="col-md-12 ">
+                                <img src="assets/images/ISD-I.png " class="img-fluid ">
+                            </div>
+                            <div id="luke-skywalker-health" class="text-center ">60</div>
+                        </button>
+                    </div>
+                    <div id="kylo-ren" class="col-sm-3 d-none">
+                        <button class="card borderbox  characters-star-wars-bottom " value="kylo-ren">
+                            <div class="text-center ">Kylo-Ren</div>
+                            <div class="col-md-12 ">
+                                <img src="assets/images/u-of-m-block-m.png" class="img-fluid ">
+                            </div>
+                            <div id="kylo-ren-health" class="text-center ">50</div>
+                        </button>
+                    </div>
+                    <div id="general-hux" class="col-sm-3 d-none">
+                        <button class="card borderbox characters-star-wars-bottom " value="general-hux">
+                            <div class="text-center ">General Hux</div>
+                            <div class="col-md-12 ">
+                                <img src="assets/images/linkedin.png" class="img-fluid ">
+                            </div>
+                            <div id="general-hux-health" class="text-center ">20</div>
+                        </button>
+                    </div>
+                </div>
+                <div class="row-7">
+                    <div id="bottom-text-area" class="col-md-12 d-none">
+                        <div id="stat-text" class="card text-left bg-transparent text-primary">
+                            <p>You attacked
+                                <span id="defender-name"></span> for
+                                <span id="attack-points"></span> damage.</p>
+                            <p>
+                                <span id="defender-name"></span> attacked you back for
+                                <span id="defender-attack-points"></span> damage.</p>
+                        </div>
+                    </div>
+                    <div id="battle-winner-text" class="card d-none">
+                        <div class="card text-left bg-transparent text-primary">
+                            <p>You defeated
+                                <span id="defender-name"></span>. Please select another enemy to continue the game.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="winner-text-area" class="col-md-12 d-none">
+                        <div class="card text-left bg-transparent text-primary">
+                            <p>You WIN!! Game over.</p>
+                        </div>
+                    </div>
+                    <div id="loser-text-area" class="col-md-12 d-none">
+                        <div class="card text-left bg-transparent text-primary">
+                            <p>You've been defeated. . . GAME OVER!!!</p>
+                        </div>
+                    </div>
+                    <button id="restart-button" class="btn btn-primary d-none" value="restart">
+                        <h5>Restart</h5>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- bootstrap sticky footer -->
+    <footer class="container-fluid">
+        <div class="my-sticky-bottom">
+            <h5 class="text-center">Copyright &copy; Martin Guldberg</h5>
+        </div>
+    </footer>
+
+</body>
+
+</html>
