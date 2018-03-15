@@ -35,6 +35,12 @@ body {
     
 }
 
+.answers{
+    height: 50px;
+    width: 25%;
+    font-weight: bold;
+}
+
 .middle-content-container {
     /* width: 960px; */
     margin-top: 40px;

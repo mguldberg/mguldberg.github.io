@@ -21,7 +21,7 @@
     <!-- link the game.js file-->
     <script type="text/javascript " src="assets/javascript/game.js "></script>
 
-    
+
     <!-- font to use -->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
 
@@ -34,14 +34,16 @@
 
     <!-- open middle section vertically, inludes the wallpaper and main content -->
     <div class="container-middle">
-        <!-- open bootstrap container - leveraging the auto sizing - no wallpaper on this -->
+        <!-- open bootstrap container which is in the middle with the background around it -->
         <div class="container">
 
-            <!-- open first column in row in middle container -->
+            <!-- open middle container -->
             <div class="row middle-content-container">
 
-                <!-- open first column in row in middle container - contains the content -->
+                <!-- use just 1 column in the row in middle container - contains the content -->
                 <div class="col-md-12">
+
+                    <!-- Title content and start button -->
                     <div id="start-container">
                         <h1 id="aboutmetitle">80s Baseball Trivia Game</h1>
                         <div id="start-button">
@@ -49,14 +51,14 @@
                         </div>
                     </div>
 
+                    <!-- container for the timer display and questions -->
                     <div id="questions-container">
                         <div>
                             <h1>Time Remaining:
                                 <span id="countdown-time"></span> seconds</h1>
                         </div>
-                        <div id="correct-or-out-of-time">
 
-                        </div>
+                        <!-- div for the question and choice to displayed -->
                         <div class="questions-and-answers">
                             <h1 id="question"></h1>
                             <br>
@@ -67,7 +69,11 @@
                             <button id="answer-choice-3" class="answers" value="3">answer3</button>
                             <br>
                             <button id="answer-choice-4" class="answers" value="4">answer4</button>
+                            <br>
                         </div>
+                        <!-- end div - questions and choices -->
+
+                        <!-- used to display the answers whether you got it wrong or correct -->
                         <div id="question-answer-container">
                             <div>
                                 <h1 id="correct-not-correct-text"></h1>
@@ -76,9 +82,14 @@
                             <div id="answer-img">
                             </div>
                         </div>
+                        <!-- end div - question answer container -->
+
                     </div>
+                    <!-- end div - questions and time container -->
+
+                    <!-- used to show the results -->
                     <div id="results-container">
-                        
+
                         <div>
                             <h1>Thanks for playing!</h1>
                         </div>
@@ -88,18 +99,16 @@
 
                         </div>
                     </div>
+                    <!-- end div - used to show the results -->
+
                 </div>
+                <!-- end div - column - 12 div -->
             </div>
-            <!-- close question answer container -->
-
+            <!-- end div middle contain that hold all content -->
         </div>
-        <!-- close first column in row in middle container - contains the content -->
+        <!-- close bootstrap container which is in the middle with the background around it -->
     </div>
-    </div>
-    <!-- close bootstrap container - leveraging the auto sizing - no wallpaper on this -->
-    </div>
-    <!-- close middle section vertically, inludes the wallpaper and main content -->
-
+    
     <!-- bootstrap sticky footer -->
     <footer class="container-fluid ">
         <div class="my-sticky-bottom ">

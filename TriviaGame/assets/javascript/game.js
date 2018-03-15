@@ -6,7 +6,7 @@
 // ==========================================================================
 //
 
-//will be loaded with value from onclick
+//will be loaded with value from onclick of an answer
 var answer;
 
 //index of currentQuestion in Obj
@@ -15,8 +15,8 @@ var currentQuestion = 0;
 //variables for timer
 var timeIsUp = false;
 var gameTimerCounter = 25; //seconds left on each Q
-
 var answerTimer;
+//init vars to track trivia stats
 var numberCorrect = 0;
 var numberWrong = 0;
 var numberTimeouts = 0;
@@ -57,7 +57,7 @@ function showAnswer(reason) {
 
     // setup var so the answer indexing isn't so hard to read
     var correctAnswerIndex = questionsObj["Q" + currentQuestion].correctAnswer
-    
+
     //did we get here because the user didn't answer in time - setup the out to display 
     if (reason == "timeout") {
         $("#correct-not-correct-text").text("Too late!");
@@ -84,7 +84,7 @@ function showAnswer(reason) {
 
     // set up the image in the div
     $("#answer-img").html('<img src="' + questionsObj["Q" + currentQuestion].answerImage + ' ">');
-    
+
     // hide the question
     $(".questions-and-answers").hide();
 
@@ -96,11 +96,14 @@ function showAnswer(reason) {
 
 //check if time has expired to answer a question
 function checkIfQuestionTimeIsExpired() {
-    // write timer change to the screen
+    // write timer change to the screen - added so 25 will display on the countdown
     $("#countdown-time").text(gameTimerCounter);
 
     gameTimerCounter--; // deduct 1 second
     console.log(gameTimerCounter);
+
+    // write timer change to the screen - added back in to get zero to display on the countdown
+    $("#countdown-time").text(gameTimerCounter);
 
     // // write timer change to the screen
     // $("#countdown-time").text(gameTimerCounter);
@@ -116,7 +119,7 @@ function checkIfQuestionTimeIsExpired() {
 
         //increment number of timeouts
         numberTimeouts++;
-        
+
         //display that time ran out
         showAnswer("timeout");
 
