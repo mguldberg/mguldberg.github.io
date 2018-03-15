@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Mediocre Minnesota Sports Trivia Game - MMSTG</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <!-- local CSS settings which will leverage the Bootstrap classes and layout -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- link the game.js file-->
+    <script type="text/javascript " src="assets/javascript/game.js "></script>
+
+    
+    <!-- font to use -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+
+    <!-- open middle section vertically, inludes the wallpaper and main content -->
+    <div class="container-middle">
+        <!-- open bootstrap container - leveraging the auto sizing - no wallpaper on this -->
+        <div class="container">
+
+            <!-- open first column in row in middle container -->
+            <div class="row middle-content-container">
+
+                <!-- open first column in row in middle container - contains the content -->
+                <div class="col-md-12">
+                    <div id="start-container">
+                        <h1 id="aboutmetitle">80s Baseball Trivia Game</h1>
+                        <div id="start-button">
+                            <button id="start-button">Start</button>
+                        </div>
+                    </div>
+
+                    <div id="questions-container">
+                        <div>
+                            <h1>Time Remaining:
+                                <span id="countdown-time"></span> seconds</h1>
+                        </div>
+                        <div id="correct-or-out-of-time">
+
+                        </div>
+                        <div class="questions-and-answers">
+                            <h1 id="question"></h1>
+                            <br>
+                            <button id="answer-choice-1" class="answers" value="1">answer1</button>
+                            <br>
+                            <button id="answer-choice-2" class="answers" value="2">answer2</button>
+                            <br>
+                            <button id="answer-choice-3" class="answers" value="3">answer3</button>
+                            <br>
+                            <button id="answer-choice-4" class="answers" value="4">answer4</button>
+                        </div>
+                        <div id="question-answer-container">
+                            <div>
+                                <h1 id="correct-not-correct-text"></h1>
+                                <h1 id="question-answer-response"></h1>
+                            </div>
+                            <div id="answer-img">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="results-container">
+                        
+                        <div>
+                            <h1>Thanks for playing!</h1>
+                        </div>
+                        <div>
+                            <h1 id="results"></h1>
+                            <button id="restart-button">Restart ?</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- close question answer container -->
+
+        </div>
+        <!-- close first column in row in middle container - contains the content -->
+    </div>
+    </div>
+    <!-- close bootstrap container - leveraging the auto sizing - no wallpaper on this -->
+    </div>
+    <!-- close middle section vertically, inludes the wallpaper and main content -->
+
+    <!-- bootstrap sticky footer -->
+    <footer class="container-fluid ">
+        <div class="my-sticky-bottom ">
+            <h5 class="text-center ">Copyright &copy; Martin Guldberg - Inspired by MAMA created by Doug and Mark S.</h5>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+</html>

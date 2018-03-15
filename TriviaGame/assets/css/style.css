@@ -1,0 +1,121 @@
+/**
+ * hw #5 - Boostrap - style.css
+ **/
+
+html, body {
+    height: 100%;
+}
+
+/* sets up default font-size, display and 
+ * flex-direction is put in for sticky footer */
+body {
+    font-size: 18px;
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: center;
+
+}
+
+#start-button{
+    background-color: maroon;
+    color: gold;
+    height: 100px;
+    width: 200px;
+    font-size: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+.answers:hover {
+    text-decoration: underline;
+    color: maroon;
+    background-color: gold;
+}
+.container-middle {
+    background-image: url("../images/45degree_fabric.png");
+    overflow: hidden;
+    
+}
+
+.middle-content-container {
+    /* width: 960px; */
+    margin-top: 40px;
+    margin-bottom: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ddd;
+    background: #ffffff;
+    padding: 30px;
+    /* margin-bottom: 20px; */
+}
+
+#about-me-container {
+    background: #ffffff;
+    padding: 30px;
+    margin-bottom: 20px;
+
+}
+
+/* used for name text - top left */
+h1#aboutmetitle, h3 {
+    color: maroon;
+    background: #ffffff;
+    padding-bottom: 20px; 
+    border-bottom: 2px solid #eee;
+    margin-bottom: 15px;
+    font-weight: bold;
+    /* margin-bottom: 20px; */
+}
+
+#nametitle,
+#aboutmetitle {
+    font-size: 25px;
+    
+}
+
+
+.panel-default {
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+div {
+    word-wrap: normal;
+
+}
+ 
+
+ 
+
+/* footer details...clear:both will make it on it's own line
+     also has flex attribute for sticky footer to match with
+     code in body up above */
+   /* font for copyright text in footer */
+
+   div.my-sticky-bottom{
+    border-top: 8px solid blue;
+    background-color: maroon;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    width:100%;
+    height:50px;
+    clear: both;
+}
+
+h5 {
+    padding-top: 15px;
+    font-size: 12px;
+    color: #ccc;
+
+}
+
+/* handled small screen size (all phones in the google dev tools) so the navbar button will stay on the same line
+as my name in the title */
+
+@media screen and (max-width: 414px){
+    #nametitle,
+    #aboutmetitle,
+    h3.panel-title {
+    font-size: 17px;
+    
+}
