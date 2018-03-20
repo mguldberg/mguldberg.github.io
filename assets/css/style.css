@@ -243,10 +243,10 @@ input[type=submit] {
 /* handled small screen size (all phones in the google dev tools) so the navbar button will stay on the same line
 as my name in the title */
 
-@media screen and (max-width: 411px){
+@media screen and (max-width: 414px){
     #nametitle,
     #aboutmetitle,
     h3.panel-title {
-    font-size: 18px;
+    font-size: 17px;
     
 }

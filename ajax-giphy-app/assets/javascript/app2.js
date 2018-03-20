@@ -423,7 +423,7 @@ function queryOMDbApi(topic) {
     // URL format  "http://www.omdbapi.com/?apikey=trilogy&t=topic&plot=short";
 
     // Built by LucyBot. www.lucybot.com at the NYT api help website
-    var queryURL = "http://www.omdbapi.com/";
+    var queryURL = "https://www.omdbapi.com/";
     queryURL += '?' + $.param({
         't': topic,   //movie title name
         'plot': "short", //short or long plot description returned
@@ -550,6 +550,9 @@ function populateButtons(arrayOfButtons) {
     var arrayOfButtonsStored = JSON.parse(localArrayStored);
     console.log("get local storage retunred");
     console.log(arrayOfButtonsStored);
+
+    // reset global var upon a reload of web page
+    localStorageArrayOfTopicButtons = arrayOfButtonsStored;
 
     if (arrayOfButtonsStored != null) {
 
