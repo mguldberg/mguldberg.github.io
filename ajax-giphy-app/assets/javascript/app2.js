@@ -206,7 +206,7 @@ function queryLibraryOfCongressApi(searchString) {
     // "http://www.loc.gov/pictures/search/?q=basketball&fa=displayed%3Aanywhere&c=30&sp=1&st=gallery&fo=json"
     http://www.loc.gov/pictures/search/?q=basketball&c=10&sp=1&st=gallery&fo=json&fa=displayed%3Aanywhere
     // Built by LucyBot. www.lucybot.com at the NYT api help website
-    var queryURL = "http://www.loc.gov/pictures/search/";
+    var queryURL = "https://www.loc.gov/pictures/search/";
     queryURL += '?' + $.param({
         'q': searchString,
         'c': "10",
