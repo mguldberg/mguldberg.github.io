@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>ajax - jquery app</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- local CSS settings which will leverage the Bootstrap classes and layout -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+
+    <!-- ajax library -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- link the app.js file-->
+    <!-- <script type="text/javascript " src="assets/javascript/app2.js "></script> -->
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 container">
+                <h2>Image Query App</h2>
+            </div>
+            <div id="top-right-key" class="col-md-6 container">
+                <span class="align-middle">Search Key:</span>
+                <button id="us-loc-key-text" class="btn float-right">US-LoC</button>
+                <button id="omdb-key-text" class="btn float-right">OMDb</button>
+                <button id="giphy-key-text" class="btn float-right">Giphy</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 border" id="topic-buttons">
+            </div>
+        </div>
+        <div class="row" id="bottom-content">
+
+            <!-- search/add button div -->
+            <div class="col-md-3 order-md-12" id="search-button-div">
+
+                <!-- This form will be where users input data about the movies -->
+                <form id="search-button-form" class="row">
+                    <div>
+                        Number of Records to Retrive:
+                        <div class="input-group" id="record">
+                            <select class="custom-select" id="api-to-query">
+                                <option value="giphy">Giphy</option>
+                                <option value="omdb">OMDb</option>
+                                <!-- comment out the menu choices that don't work -->
+                                <!-- <option value="us-loc">Library of Congress</option>
+                                <!-- <option value="4">4</option> -->
+                                <!-- <option value="5">5</option> -->
+                            </select>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="topic-input"></label>
+                        <input type="text" id="topic-input" placeholder="Enter GIF topic">
+                        <br>
+                        <!-- This button will trigger our AJAX call -->
+                        <input id="add-topic" type="submit" value="Topic Search">
+                    </div>
+                </form>
+                <!-- end user input form -->
+
+            </div>
+            <!-- end search/add button div -->
+
+            <!-- Dumping our Giphy JSON content in here -->
+            <div class="col-md-8 order-md-1 border">
+                <div class="row" id="gif-content">
+
+                </div>
+            </div>
+            <!-- end Giphy JSON content div -->
+
+        </div>
+        <!-- end bottom content div -->
+
+    </div>
+    <!-- end bootstrap container -->
+
+
+    <!-- link the app.js file-->
+    <script type="text/javascript " src="assets/javascript/app2.js "></script>
+
+    <!-- link the js-cookie.js file-->
+    <script type="text/javascript " src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+</body>
+
+
+</html>
