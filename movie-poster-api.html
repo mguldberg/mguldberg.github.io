@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Favorite Movies</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- local CSS settings which will leverage the Bootstrap classes and layout -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container border bg-light">
+        <div id="movieImgDiv">
+            <img src="https://ia.media-imdb.com/images/M/MV5BMzVjNzI4NzYtMjE4NS00M2IzLWFkOWMtOTYwMWUzN2ZlNGVjL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg "
+                class="movie-poster">
+            <a id="download-link" download class="top-right" href="inspector-gadget.jpg">
+                <i style="font-size:18px" class="fa"></i>
+            </a>
+        </div>
+        
+
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-2 card border bg-light">
+            <div id="imgDiv">
+                <img src="https://media3.giphy.com/media/26hirEPeos6yugLDO/100.gif" data-state="animate" data-animate="https://media3.giphy.com/media/26hirEPeos6yugLDO/100.gif"
+                    data-still="https://media3.giphy.com/media/26hirEPeos6yugLDO/100_s.gif" class="giphy-gif mx-auto d-block"
+                    alt="game 4 win GIF by MLB" title="game 4 win GIF by MLB">
+
+                <a href="https://media3.giphy.com/media/26hirEPeos6yugLDO/100.gif" download="100.gif" class="top-right">
+                    <i style="font-size:18px" class="fa">&#xf019</i>
+                </a>
+            </div>
+            Giphy User:
+            <a href="https://giphy.com/mlb/">MLB</a>
+            <div class="container-fluid row justify-content-between">
+                <p class="float-left">Rating: PG</p>
+                <a id="twitter-link" class="float-right" href="https://twitter.com/mlb">
+                    <i style="font-size:24px" class="fa"></i>
+                </a>
+            </div>
+            <p>Uploaded: 2016-10-12</p>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="container">
+        <h1>Movie Search</h1>
+
+        <div id="addNewMovie"></div>
+
+
+        <!-- We'll be dumping our JSON contents in here -->
+
+        <div id="movie-view"></div>
+
+
+        <!-- This form will be where users input data about the movies -->
+        <form id="movie-form">
+            <label for="movie-input">Search for a movie</label>
+            <input type="text" id="movie-input">
+
+            <br>
+
+            <!-- This button will trigger our AJAX call -->
+            <input id="find-movie" type="submit" value="Movie Search">
+        </form>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript">
+
+            function addMovie() {
+
+            }
+
+
+
+
+            // This .on("click") function will trigger the AJAX Call
+
+            $("#find-movie").on("click", function (event) {
+
+                // Preventing the submit button from trying to submit the form
+                // We're optionally using a form so the user may hit Enter to search instead of clicking the button
+                event.preventDefault();
+
+                // Here we grab the text from the input box
+                var movie = $("#movie-input").val();
+
+                // Here we construct our URL
+                var queryURL = "https://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy";
+
+                // Write code between the dashes below to hit the queryURL with $ajax, then take the response data
+                // and display it in the div with an id of movie-view
+
+                // YOUR CODE GOES IN THESE DASHES. DO NOT MANUALLY EDIT THE HTML ABOVE
+
+                // =================================================================
+
+                // CODE GOES HERE
+                $.ajax({
+                    url: queryURL,
+                    method: "GET"
+                }).then(function (getMovie) {
+                    console.log(getMovie)
+                    var movieName = getMovie.Title
+                    var newButton = $("<button class='movie-btn' value='" + getMovie.Title + "'>" + movieName + "</button>")
+                    $('#movie-view').append(newButton);
+                    var textValue = $('#textbox').val();
+
+                });
+
+            })
+
+
+            $("#movie-view").on("click", ".movie-btn", function (event) {
+                console.log("inside btn click handler");
+                // Preventing the submit button from trying to submit the form
+                // We're optionally using a form so the user may hit Enter to search instead of clicking the button
+                event.preventDefault();
+
+                // Here we grab the text from the input box
+                var movie = $(this).val();
+                console.log(movie);
+
+                var queryURL = "https://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy";
+
+                $.ajax({
+                    url: queryURL,
+                    method: "GET"
+                }).then(function (getButtonMovie) {
+                    console.log(getButtonMovie)
+                    var moviePoster = getButtonMovie.Poster
+
+
+                    var newDiv = $("<div>")
+                    newDiv.append("<p>" + getButtonMovie.Title + "</p>")
+                    newDiv.append("<p>" + getButtonMovie.Rated + "</p>")
+                    newDiv.append("<p>" + getButtonMovie.Released + "</p>")
+                    newDiv.append("<p>" + getButtonMovie.Runtime + "</p>")
+                    newDiv.append('<img src="' + moviePoster + ' ">');
+                    $("#addNewMovie").prepend(newDiv)
+
+                });
+
+
+
+
+
+            })
+
+
+       // =================================================================
+
+
+
+        </script>
+    </div>
+
+</body>
