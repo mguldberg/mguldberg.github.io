@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Train Schedule App</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- local CSS settings which will leverage the Bootstrap classes and layout -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- jQuery library -->
+    <!-- ajax library -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- jQuery -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+
+    <!-- Bootstrap CDN-->
+    <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+
+
+    <!-- Added Moment JS -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <br>
+        <!-- Jumbotron Title -->
+        <div class="row jumbotron">
+            <div class="col-sm-4 ">
+                <img class="img-fluid thumbnail center-block" src="assets/images/character-sir_topham_hatt_main.jpg" alt="Sir Topham Hatt">
+            </div>
+            <div class="col-sm-4 ">
+                <h1 class="text-center">Train Schedule</h1>
+                <h3 class="text-center">Choo Choo</h3>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-fluid thumbnail center-block" src="assets/images/Thomas_The_Tank_Engine.jpg" alt="Thomas the Tank Engine">
+            </div>
+        </div>
+
+        <!-- Current Train Schedule-->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card card-inverse card-primary mb-3">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class=" col">
+                                <h4 class="card-title">
+                                    <strong>Current Train Schedule</strong>
+                                </h4>
+                            </div>
+
+                            <div class="col">
+                                <h6 class="text-right">Time Remaining:
+                                    <span id="countdown-time">60</span> seconds</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div id="percent-progress-until-next-train" class="progress-bar" style="width:75%"></div>
+                </div>
+                <div class="card-block table-fluid">
+                    <table class="table table-striped" id='employee-table'>
+                        <thead>
+                            <tr>
+                                <th>Train Name</th>
+                                <th>Destination</th>
+                                <th>Frequency (min)</th>
+                                <th>Next Arrival</th>
+                                <th>Minutes Away-Next Train</th>
+                            </tr>
+                        </thead>
+                        <tbody id="train-table-body">
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Make Your Bid -->
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card card-inverse card-primary mb-3">
+                <div class="card-header">
+                    <h4 class="card-title">Add train to schedule</h3>
+                </div>
+                <div class="card-block col-md-12">
+                    <form>
+                        <div class="form-group">
+                            <label for="choo-choo-name">Train Name</label>
+                            <input class="form-control" id="choo-choo-name" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="where-are-we-going">Destination</label>
+                            <input class="form-control" id="where-are-we-going" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="start-input">First Train Time (HH:mm - ex: 13:45 - military time)</label>
+                            <input class="form-control" id="start-input" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="frequency-input">Frequency (min)</label>
+                            <input class="form-control" id="frequency-input" type="text">
+                        </div>
+                        <button class="btn btn-primary" id="add-train" type="submit">Add train</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Script -->
+    <script src="assets/javascript/trains.js"></script>
+
+</body>
+
+</html>
