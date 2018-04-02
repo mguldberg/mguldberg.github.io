@@ -1,0 +1,95 @@
+{
+    "tracks": {
+        "href": "https://api.spotify.com/v1/search?query=+%22Caught+Up+In+You%22&type=track&offset=0&limit=1",
+        "items": [
+            {
+                "album": {
+                    "album_type": "album",
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3zXw2Eh96iTT51pytzHdZi"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/3zXw2Eh96iTT51pytzHdZi",
+                            "id": "3zXw2Eh96iTT51pytzHdZi",
+                            "name": "38 Special",
+                            "type": "artist",
+                            "uri": "spotify:artist:3zXw2Eh96iTT51pytzHdZi"
+                        }
+                    ],
+                    "available_markets": [
+                        "CA",
+                        "MX",
+                        "US"
+                    ],
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/album/4vWxauP6oFowwSQeBnFwRW"
+                    },
+                    "href": "https://api.spotify.com/v1/albums/4vWxauP6oFowwSQeBnFwRW",
+                    "id": "4vWxauP6oFowwSQeBnFwRW",
+                    "images": [
+                        {
+                            "height": 631,
+                            "url": "https://i.scdn.co/image/0e47610900e0366fed0b3cf7033ebdd4650a77e0",
+                            "width": 640
+                        },
+                        {
+                            "height": 296,
+                            "url": "https://i.scdn.co/image/176d2abd2fc30882ef17636836cd626141cdc21b",
+                            "width": 300
+                        },
+                        {
+                            "height": 63,
+                            "url": "https://i.scdn.co/image/945caffb55e9951b0a8d46d804905cf80b731bbc",
+                            "width": 64
+                        }
+                    ],
+                    "name": "Special Forces",
+                    "release_date": "1982-01-01",
+                    "release_date_precision": "day",
+                    "type": "album",
+                    "uri": "spotify:album:4vWxauP6oFowwSQeBnFwRW"
+                },
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/3zXw2Eh96iTT51pytzHdZi"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/3zXw2Eh96iTT51pytzHdZi",
+                        "id": "3zXw2Eh96iTT51pytzHdZi",
+                        "name": "38 Special",
+                        "type": "artist",
+                        "uri": "spotify:artist:3zXw2Eh96iTT51pytzHdZi"
+                    }
+                ],
+                "available_markets": [
+                    "CA",
+                    "MX",
+                    "US"
+                ],
+                "disc_number": 1,
+                "duration_ms": 279333,
+                "explicit": false,
+                "external_ids": {
+                    "isrc": "USAM18201204"
+                },
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/track/3jYRpwbctfqB77uU7T7K3U"
+                },
+                "href": "https://api.spotify.com/v1/tracks/3jYRpwbctfqB77uU7T7K3U",
+                "id": "3jYRpwbctfqB77uU7T7K3U",
+                "name": "Caught Up In You",
+                "popularity": 62,
+                "preview_url": null,
+                "track_number": 1,
+                "type": "track",
+                "uri": "spotify:track:3jYRpwbctfqB77uU7T7K3U"
+            }
+        ],
+        "limit": 1,
+        "next": "https://api.spotify.com/v1/search?query=+%22Caught+Up+In+You%22&type=track&offset=1&limit=1",
+        "offset": 0,
+        "previous": null,
+        "total": 153
+    }
+}

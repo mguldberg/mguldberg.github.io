@@ -1,0 +1,4314 @@
+[
+    {
+        "created_at": "Fri Mar 30 20:09:55 +0000 2018",
+        "id": 979812990991118300,
+        "id_str": "979812990991118337",
+        "text": "RT @fishingrat: We were having some fun filming some new products for 2018 on Pool 2 of the Mississippi.  Hey… https://t.co/fXBkI5Ali1",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "fishingrat",
+                    "name": "Robert Cardenas",
+                    "id": 231284417,
+                    "id_str": "231284417",
+                    "indices": [
+                        3,
+                        14
+                    ]
+                }
+            ],
+            "urls": [
+                {
+                    "url": "https://t.co/fXBkI5Ali1",
+                    "expanded_url": "https://www.instagram.com/p/BgxPXKHH8JM/",
+                    "display_url": "instagram.com/p/BgxPXKHH8JM/",
+                    "indices": [
+                        111,
+                        134
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 979169174114226200,
+            "id_str": "979169174114226177",
+            "name": "mg_bootcamp",
+            "screen_name": "mg_bootcamp",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 0,
+            "friends_count": 4,
+            "listed_count": 0,
+            "created_at": "Thu Mar 29 01:31:38 +0000 2018",
+            "favourites_count": 7,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 21,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": true,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Mon Mar 26 02:17:59 +0000 2018",
+            "id": 978093676936204300,
+            "id_str": "978093676936204288",
+            "text": "We were having some fun filming some new products for 2018 on Pool 2 of the Mississippi.  Hey… https://t.co/fXBkI5Ali1",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/fXBkI5Ali1",
+                        "expanded_url": "https://www.instagram.com/p/BgxPXKHH8JM/",
+                        "display_url": "instagram.com/p/BgxPXKHH8JM/",
+                        "indices": [
+                            95,
+                            118
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://instagram.com\" rel=\"nofollow\">Instagram</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 231284417,
+                "id_str": "231284417",
+                "name": "Robert Cardenas",
+                "screen_name": "fishingrat",
+                "location": "Minnesota ",
+                "description": "Pro-Fisherman and Promoter",
+                "url": "https://t.co/aUjHhffy8V",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/aUjHhffy8V",
+                                "expanded_url": "https://youtu.be/65-QZzlQIjU",
+                                "display_url": "youtu.be/65-QZzlQIjU",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 544,
+                "friends_count": 278,
+                "listed_count": 6,
+                "created_at": "Tue Dec 28 03:07:50 +0000 2010",
+                "favourites_count": 883,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 409,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/886655339759906817/m3hSyxE-_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/886655339759906817/m3hSyxE-_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/231284417/1500230082",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 1,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": true,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": true,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Mar 30 20:07:38 +0000 2018",
+        "id": 979812415272570900,
+        "id_str": "979812415272570880",
+        "text": "RT @FriendsofPool2: Here's another useful tidbit lifted from our Friends of Pool 2 website: a 4-minute video on how to identify invasive ca…",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "FriendsofPool2",
+                    "name": "Friends of Pool 2",
+                    "id": 949009866,
+                    "id_str": "949009866",
+                    "indices": [
+                        3,
+                        18
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 979169174114226200,
+            "id_str": "979169174114226177",
+            "name": "mg_bootcamp",
+            "screen_name": "mg_bootcamp",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 0,
+            "friends_count": 4,
+            "listed_count": 0,
+            "created_at": "Thu Mar 29 01:31:38 +0000 2018",
+            "favourites_count": 7,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 21,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": true,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Sun Mar 25 19:14:04 +0000 2018",
+            "id": 977986996751798300,
+            "id_str": "977986996751798272",
+            "text": "Here's another useful tidbit lifted from our Friends of Pool 2 website: a 4-minute video on how to identify invasiv… https://t.co/IV0JsOqppR",
+            "truncated": true,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/IV0JsOqppR",
+                        "expanded_url": "https://twitter.com/i/web/status/977986996751798272",
+                        "display_url": "twitter.com/i/web/status/9…",
+                        "indices": [
+                            117,
+                            140
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 949009866,
+                "id_str": "949009866",
+                "name": "Friends of Pool 2",
+                "screen_name": "FriendsofPool2",
+                "location": "Newport, MN",
+                "description": "Your River. Your Voice. A non-profit organization empowering recreational river users with a voice in decisions that impact Pool 2 of the Mississippi River.",
+                "url": "http://t.co/upsQOSs8",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/upsQOSs8",
+                                "expanded_url": "http://www.friendsofpool2.org",
+                                "display_url": "friendsofpool2.org",
+                                "indices": [
+                                    0,
+                                    20
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 189,
+                "friends_count": 280,
+                "listed_count": 7,
+                "created_at": "Thu Nov 15 04:04:00 +0000 2012",
+                "favourites_count": 18,
+                "utc_offset": -14400,
+                "time_zone": "Eastern Time (US & Canada)",
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 3330,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "022330",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/2851119434/7bdd03e1a254a2acbe1d6787bf431938_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/2851119434/7bdd03e1a254a2acbe1d6787bf431938_normal.jpeg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/949009866/1354504316",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "A8C7F7",
+                "profile_sidebar_fill_color": "C0DFEC",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 1,
+            "favorite_count": 1,
+            "favorited": false,
+            "retweeted": true,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": true,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Mar 30 20:06:21 +0000 2018",
+        "id": 979812091237404700,
+        "id_str": "979812091237404678",
+        "text": "https://t.co/shGIXnUyfB",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 979812080130736100,
+                    "id_str": "979812080130736128",
+                    "indices": [
+                        0,
+                        23
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/DZj95UbUQAAJDBF.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/DZj95UbUQAAJDBF.jpg",
+                    "url": "https://t.co/shGIXnUyfB",
+                    "display_url": "pic.twitter.com/shGIXnUyfB",
+                    "expanded_url": "https://twitter.com/mg_bootcamp/status/979812091237404678/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 94,
+                            "h": 94,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 94,
+                            "h": 113,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 94,
+                            "h": 113,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 94,
+                            "h": 113,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 979812080130736100,
+                    "id_str": "979812080130736128",
+                    "indices": [
+                        0,
+                        23
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/DZj95UbUQAAJDBF.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/DZj95UbUQAAJDBF.jpg",
+                    "url": "https://t.co/shGIXnUyfB",
+                    "display_url": "pic.twitter.com/shGIXnUyfB",
+                    "expanded_url": "https://twitter.com/mg_bootcamp/status/979812091237404678/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 94,
+                            "h": 94,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 94,
+                            "h": 113,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 94,
+                            "h": 113,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 94,
+                            "h": 113,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 979169174114226200,
+            "id_str": "979169174114226177",
+            "name": "mg_bootcamp",
+            "screen_name": "mg_bootcamp",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 0,
+            "friends_count": 4,
+            "listed_count": 0,
+            "created_at": "Thu Mar 29 01:31:38 +0000 2018",
+            "favourites_count": 7,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 21,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": true,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "und"
+    },
+    {
+        "created_at": "Fri Mar 30 20:05:43 +0000 2018",
+        "id": 979811932415975400,
+        "id_str": "979811932415975426",
+        "text": "RT @drewbesonart: Paisley fishing 🎣 with her friend Django. Spring is around the corner! @ Minnehaha Off-Leash… https://t.co/x7KYzFclLV",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "drewbesonart",
+                    "name": "Drew Beson",
+                    "id": 35765091,
+                    "id_str": "35765091",
+                    "indices": [
+                        3,
+                        16
+                    ]
+                }
+            ],
+            "urls": [
+                {
+                    "url": "https://t.co/x7KYzFclLV",
+                    "expanded_url": "https://www.instagram.com/p/BgRQsU3hzIR/",
+                    "display_url": "instagram.com/p/BgRQsU3hzIR/",
+                    "indices": [
+                        112,
+                        135
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 979169174114226200,
+            "id_str": "979169174114226177",
+            "name": "mg_bootcamp",
+            "screen_name": "mg_bootcamp",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 0,
+            "friends_count": 4,
+            "listed_count": 0,
+            "created_at": "Thu Mar 29 01:31:38 +0000 2018",
+            "favourites_count": 7,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 21,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": true,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Tue Mar 13 16:15:23 +0000 2018",
+            "id": 973593375432572900,
+            "id_str": "973593375432572929",
+            "text": "Paisley fishing 🎣 with her friend Django. Spring is around the corner! @ Minnehaha Off-Leash… https://t.co/x7KYzFclLV",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/x7KYzFclLV",
+                        "expanded_url": "https://www.instagram.com/p/BgRQsU3hzIR/",
+                        "display_url": "instagram.com/p/BgRQsU3hzIR/",
+                        "indices": [
+                            94,
+                            117
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://instagram.com\" rel=\"nofollow\">Instagram</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 35765091,
+                "id_str": "35765091",
+                "name": "Drew Beson",
+                "screen_name": "drewbesonart",
+                "location": "Minneapolis, Minnesota",
+                "description": "#Artist specializing in #AbstractArt, Philanthropist and Bon Vivant!",
+                "url": "http://t.co/HxxqQVChlh",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/HxxqQVChlh",
+                                "expanded_url": "http://www.drewbesonart.com",
+                                "display_url": "drewbesonart.com",
+                                "indices": [
+                                    0,
+                                    22
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 1330,
+                "friends_count": 505,
+                "listed_count": 15,
+                "created_at": "Mon Apr 27 15:11:50 +0000 2009",
+                "favourites_count": 180,
+                "utc_offset": -18000,
+                "time_zone": "Central Time (US & Canada)",
+                "geo_enabled": true,
+                "verified": false,
+                "statuses_count": 936,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "9AE4E8",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/10411612/twitter2.jpg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/10411612/twitter2.jpg",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/852639296691503108/KSgiSGL6_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/852639296691503108/KSgiSGL6_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/35765091/1492120111",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "BDDCAD",
+                "profile_sidebar_fill_color": "DDFFCC",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": {
+                "type": "Point",
+                "coordinates": [
+                    44.90613389,
+                    -93.19904094
+                ]
+            },
+            "coordinates": {
+                "type": "Point",
+                "coordinates": [
+                    -93.19904094,
+                    44.90613389
+                ]
+            },
+            "place": {
+                "id": "8e9665cec9370f0f",
+                "url": "https://api.twitter.com/1.1/geo/id/8e9665cec9370f0f.json",
+                "place_type": "city",
+                "name": "Minneapolis",
+                "full_name": "Minneapolis, MN",
+                "country_code": "US",
+                "country": "United States",
+                "contained_within": [],
+                "bounding_box": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                -93.329515,
+                                44.889964
+                            ],
+                            [
+                                -93.194578,
+                                44.889964
+                            ],
+                            [
+                                -93.194578,
+                                45.051257
+                            ],
+                            [
+                                -93.329515,
+                                45.051257
+                            ]
+                        ]
+                    ]
+                },
+                "attributes": {}
+            },
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 1,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": true,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": true,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Mar 30 20:04:38 +0000 2018",
+        "id": 979811659983347700,
+        "id_str": "979811659983347712",
+        "text": "RT @dawn_armfield: fishing the great river\n\n#bw #fishing #mississippi #water #hiddenfallsregionalpark #stpaul #minnesota #googlepixel #team…",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "bw",
+                    "indices": [
+                        44,
+                        47
+                    ]
+                },
+                {
+                    "text": "fishing",
+                    "indices": [
+                        48,
+                        56
+                    ]
+                },
+                {
+                    "text": "mississippi",
+                    "indices": [
+                        57,
+                        69
+                    ]
+                },
+                {
+                    "text": "water",
+                    "indices": [
+                        70,
+                        76
+                    ]
+                },
+                {
+                    "text": "hiddenfallsregionalpark",
+                    "indices": [
+                        77,
+                        101
+                    ]
+                },
+                {
+                    "text": "stpaul",
+                    "indices": [
+                        102,
+                        109
+                    ]
+                },
+                {
+                    "text": "minnesota",
+                    "indices": [
+                        110,
+                        120
+                    ]
+                },
+                {
+                    "text": "googlepixel",
+                    "indices": [
+                        121,
+                        133
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "dawn_armfield",
+                    "name": "dawn m. armfield",
+                    "id": 6510802,
+                    "id_str": "6510802",
+                    "indices": [
+                        3,
+                        17
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 979169174114226200,
+            "id_str": "979169174114226177",
+            "name": "mg_bootcamp",
+            "screen_name": "mg_bootcamp",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 0,
+            "friends_count": 4,
+            "listed_count": 0,
+            "created_at": "Thu Mar 29 01:31:38 +0000 2018",
+            "favourites_count": 7,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 21,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": true,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Mon Jan 15 12:21:29 +0000 2018",
+            "id": 952878402389905400,
+            "id_str": "952878402389905408",
+            "text": "fishing the great river\n\n#bw #fishing #mississippi #water #hiddenfallsregionalpark #stpaul #minnesota #googlepixel… https://t.co/Mfhiqok3di",
+            "truncated": true,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "bw",
+                        "indices": [
+                            25,
+                            28
+                        ]
+                    },
+                    {
+                        "text": "fishing",
+                        "indices": [
+                            29,
+                            37
+                        ]
+                    },
+                    {
+                        "text": "mississippi",
+                        "indices": [
+                            38,
+                            50
+                        ]
+                    },
+                    {
+                        "text": "water",
+                        "indices": [
+                            51,
+                            57
+                        ]
+                    },
+                    {
+                        "text": "hiddenfallsregionalpark",
+                        "indices": [
+                            58,
+                            82
+                        ]
+                    },
+                    {
+                        "text": "stpaul",
+                        "indices": [
+                            83,
+                            90
+                        ]
+                    },
+                    {
+                        "text": "minnesota",
+                        "indices": [
+                            91,
+                            101
+                        ]
+                    },
+                    {
+                        "text": "googlepixel",
+                        "indices": [
+                            102,
+                            114
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/Mfhiqok3di",
+                        "expanded_url": "https://twitter.com/i/web/status/952878402389905408",
+                        "display_url": "twitter.com/i/web/status/9…",
+                        "indices": [
+                            116,
+                            139
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"https://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 6510802,
+                "id_str": "6510802",
+                "name": "dawn m. armfield",
+                "screen_name": "dawn_armfield",
+                "location": "east or west of there",
+                "description": "assistant professor at MN State University Mankato, PhD in rhetoric and scientific & technical communication, technology researcher, amateur photographer",
+                "url": "https://t.co/dgctsrKODk",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/dgctsrKODk",
+                                "expanded_url": "http://about.me/darmfield",
+                                "display_url": "about.me/darmfield",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 1199,
+                "friends_count": 1113,
+                "listed_count": 102,
+                "created_at": "Fri Jun 01 21:20:33 +0000 2007",
+                "favourites_count": 5142,
+                "utc_offset": -14400,
+                "time_zone": "Eastern Time (US & Canada)",
+                "geo_enabled": true,
+                "verified": false,
+                "statuses_count": 15385,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "F1F1F1",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/230242949/twitterbackground40811.jpg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/230242949/twitterbackground40811.jpg",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/700433003223191553/DNZ985KB_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/700433003223191553/DNZ985KB_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/6510802/1455831307",
+                "profile_link_color": "A2A2A2",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "898386",
+                "profile_use_background_image": false,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 1,
+            "favorite_count": 2,
+            "favorited": true,
+            "retweeted": true,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "favorited": true,
+        "retweeted": true,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Mar 30 15:02:27 +0000 2018",
+        "id": 979735612109533200,
+        "id_str": "979735612109533185",
+        "text": "RT @MaryCKenn: Twin Cities Meteorologist @JeffKARE11 just used the word ‘windchill’ in our forecast for tomorrow. Shame on you Jeff.\n\nAnd t…",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "MaryCKenn",
+                    "name": "Mary Kennedy",
+                    "id": 627489629,
+                    "id_str": "627489629",
+                    "indices": [
+                        3,
+                        13
+                    ]
+                },
+                {
+                    "screen_name": "JeffKARE11",
+                    "name": "Jeff Edmondson",
+                    "id": 48252339,
+                    "id_str": "48252339",
+                    "indices": [
+                        41,
+                        52
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 979169174114226200,
+            "id_str": "979169174114226177",
+            "name": "mg_bootcamp",
+            "screen_name": "mg_bootcamp",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 0,
+            "friends_count": 4,
+            "listed_count": 0,
+            "created_at": "Thu Mar 29 01:31:38 +0000 2018",
+            "favourites_count": 7,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 21,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": true,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Wed Mar 28 22:31:47 +0000 2018",
+            "id": 979123914570895400,
+            "id_str": "979123914570895361",
+            "text": "Twin Cities Meteorologist @JeffKARE11 just used the word ‘windchill’ in our forecast for tomorrow. Shame on you Jef… https://t.co/DMDGd4pSpV",
+            "truncated": true,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "JeffKARE11",
+                        "name": "Jeff Edmondson",
+                        "id": 48252339,
+                        "id_str": "48252339",
+                        "indices": [
+                            26,
+                            37
+                        ]
+                    }
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/DMDGd4pSpV",
+                        "expanded_url": "https://twitter.com/i/web/status/979123914570895361",
+                        "display_url": "twitter.com/i/web/status/9…",
+                        "indices": [
+                            117,
+                            140
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 627489629,
+                "id_str": "627489629",
+                "name": "Mary Kennedy",
+                "screen_name": "MaryCKenn",
+                "location": "Minneapolis, MN",
+                "description": "Cash Grains Analyst at DTN. Transportation. Former wheat, durum, barley trader; corn buyer for Ethanol; MN Twins, Wild & Gopher Hockey & Cubs fan.",
+                "url": "https://t.co/T9oK2VDHzP",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/T9oK2VDHzP",
+                                "expanded_url": "http://dtnprogressivefarmer.com",
+                                "display_url": "dtnprogressivefarmer.com",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 2158,
+                "friends_count": 2192,
+                "listed_count": 91,
+                "created_at": "Thu Jul 05 15:47:29 +0000 2012",
+                "favourites_count": 7840,
+                "utc_offset": -25200,
+                "time_zone": "Pacific Time (US & Canada)",
+                "geo_enabled": true,
+                "verified": false,
+                "statuses_count": 18644,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/948603716369661952/J5MdRoJ-_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/948603716369661952/J5MdRoJ-_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/627489629/1518468713",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 4,
+            "favorite_count": 2,
+            "favorited": false,
+            "retweeted": true,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 4,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": true,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Mar 30 15:02:17 +0000 2018",
+        "id": 979735572603424800,
+        "id_str": "979735572603424768",
+        "text": "RT @JeffKARE11: In less than 30 minutes, look for the International Space Station! https://t.co/TtbBSisb2h",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "JeffKARE11",
+                    "name": "Jeff Edmondson",
+                    "id": 48252339,
+                    "id_str": "48252339",
+                    "indices": [
+                        3,
+                        14
+                    ]
+                }
+            ],
+            "urls": [],
+            "media": [
+                {
+                    "id": 978798946977046500,
+                    "id_str": "978798946977046528",
+                    "indices": [
+                        83,
+                        106
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/DZVkdNUX4AA-HsB.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/DZVkdNUX4AA-HsB.jpg",
+                    "url": "https://t.co/TtbBSisb2h",
+                    "display_url": "pic.twitter.com/TtbBSisb2h",
+                    "expanded_url": "https://twitter.com/JeffKARE11/status/978798950043054080/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 1200,
+                            "h": 675,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 383,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1280,
+                            "h": 720,
+                            "resize": "fit"
+                        }
+                    },
+                    "source_status_id": 978798950043054100,
+                    "source_status_id_str": "978798950043054080",
+                    "source_user_id": 48252339,
+                    "source_user_id_str": "48252339"
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 978798946977046500,
+                    "id_str": "978798946977046528",
+                    "indices": [
+                        83,
+                        106
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/DZVkdNUX4AA-HsB.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/DZVkdNUX4AA-HsB.jpg",
+                    "url": "https://t.co/TtbBSisb2h",
+                    "display_url": "pic.twitter.com/TtbBSisb2h",
+                    "expanded_url": "https://twitter.com/JeffKARE11/status/978798950043054080/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 1200,
+                            "h": 675,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 383,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1280,
+                            "h": 720,
+                            "resize": "fit"
+                        }
+                    },
+                    "source_status_id": 978798950043054100,
+                    "source_status_id_str": "978798950043054080",
+                    "source_user_id": 48252339,
+                    "source_user_id_str": "48252339"
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 979169174114226200,
+            "id_str": "979169174114226177",
+            "name": "mg_bootcamp",
+            "screen_name": "mg_bootcamp",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 0,
+            "friends_count": 4,
+            "listed_count": 0,
+            "created_at": "Thu Mar 29 01:31:38 +0000 2018",
+            "favourites_count": 7,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 21,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": true,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Wed Mar 28 01:00:29 +0000 2018",
+            "id": 978798950043054100,
+            "id_str": "978798950043054080",
+            "text": "In less than 30 minutes, look for the International Space Station! https://t.co/TtbBSisb2h",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 978798946977046500,
+                        "id_str": "978798946977046528",
+                        "indices": [
+                            67,
+                            90
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DZVkdNUX4AA-HsB.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DZVkdNUX4AA-HsB.jpg",
+                        "url": "https://t.co/TtbBSisb2h",
+                        "display_url": "pic.twitter.com/TtbBSisb2h",
+                        "expanded_url": "https://twitter.com/JeffKARE11/status/978798950043054080/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 675,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 383,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 1280,
+                                "h": 720,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 978798946977046500,
+                        "id_str": "978798946977046528",
+                        "indices": [
+                            67,
+                            90
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DZVkdNUX4AA-HsB.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DZVkdNUX4AA-HsB.jpg",
+                        "url": "https://t.co/TtbBSisb2h",
+                        "display_url": "pic.twitter.com/TtbBSisb2h",
+                        "expanded_url": "https://twitter.com/JeffKARE11/status/978798950043054080/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 675,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 383,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 1280,
+                                "h": 720,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"http://www.socialnewsdesk.com\" rel=\"nofollow\">SocialNewsDesk</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 48252339,
+                "id_str": "48252339",
+                "name": "Jeff Edmondson",
+                "screen_name": "JeffKARE11",
+                "location": "Minneapolis, MN",
+                "description": "Meteorologist, Tech Enthusiast, and Video Gamer",
+                "url": "https://t.co/8wxsjgwdgP",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/8wxsjgwdgP",
+                                "expanded_url": "http://www.kare11.com",
+                                "display_url": "kare11.com",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 2922,
+                "friends_count": 112,
+                "listed_count": 77,
+                "created_at": "Thu Jun 18 05:01:25 +0000 2009",
+                "favourites_count": 2170,
+                "utc_offset": -14400,
+                "time_zone": "Eastern Time (US & Canada)",
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 4779,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "131516",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/562673715490471936/eUPDNdKs_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/562673715490471936/eUPDNdKs_normal.jpeg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/48252339/1398376329",
+                "profile_link_color": "009999",
+                "profile_sidebar_border_color": "EEEEEE",
+                "profile_sidebar_fill_color": "EFEFEF",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 9,
+            "favorite_count": 26,
+            "favorited": false,
+            "retweeted": true,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 9,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": true,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Mar 30 15:01:10 +0000 2018",
+        "id": 979735289592733700,
+        "id_str": "979735289592733697",
+        "text": "RT @WindyCityBrits: Goodbye Wisconsin / Minnesota?! &gt;&gt; Out-of-control Chinese space station will 'crash into Earth over Easter weekend' wit…",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "WindyCityBrits",
+                    "name": "WindyCityBrits",
+                    "id": 613658769,
+                    "id_str": "613658769",
+                    "indices": [
+                        3,
+                        18
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 979169174114226200,
+            "id_str": "979169174114226177",
+            "name": "mg_bootcamp",
+            "screen_name": "mg_bootcamp",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 0,
+            "friends_count": 4,
+            "listed_count": 0,
+            "created_at": "Thu Mar 29 01:31:38 +0000 2018",
+            "favourites_count": 7,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 21,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": true,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Fri Mar 23 23:31:12 +0000 2018",
+            "id": 977326930033717200,
+            "id_str": "977326930033717248",
+            "text": "Goodbye Wisconsin / Minnesota?! &gt;&gt; Out-of-control Chinese space station will 'crash into Earth over Easter weekend'… https://t.co/GykwKVXwu0",
+            "truncated": true,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/GykwKVXwu0",
+                        "expanded_url": "https://twitter.com/i/web/status/977326930033717248",
+                        "display_url": "twitter.com/i/web/status/9…",
+                        "indices": [
+                            123,
+                            146
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 613658769,
+                "id_str": "613658769",
+                "name": "WindyCityBrits",
+                "screen_name": "WindyCityBrits",
+                "location": "Chicago",
+                "description": "A website for British #Expats & Anglophiles in #Chicago, Illinois & the Midwest of the USA",
+                "url": "http://t.co/unH1T7Jw7m",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/unH1T7Jw7m",
+                                "expanded_url": "http://www.windycitybrits.com",
+                                "display_url": "windycitybrits.com",
+                                "indices": [
+                                    0,
+                                    22
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 59,
+                "friends_count": 41,
+                "listed_count": 12,
+                "created_at": "Wed Jun 20 16:43:51 +0000 2012",
+                "favourites_count": 0,
+                "utc_offset": -14400,
+                "time_zone": "Eastern Time (US & Canada)",
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 3048,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/566995292021469186/udCnvJyF_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/566995292021469186/udCnvJyF_normal.jpeg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/613658769/1424017242",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 1,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": true,
+            "possibly_sensitive": true,
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": true,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Mar 30 14:59:55 +0000 2018",
+        "id": 979734973887467500,
+        "id_str": "979734973887467520",
+        "text": "RT @StribOutdoors: Ideas for a Minnesota spring: https://t.co/RKmxgYU7dn #birding #trailrunning #cuyuna #getingear #fishing #cycling #Earth…",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "birding",
+                    "indices": [
+                        73,
+                        81
+                    ]
+                },
+                {
+                    "text": "trailrunning",
+                    "indices": [
+                        82,
+                        95
+                    ]
+                },
+                {
+                    "text": "cuyuna",
+                    "indices": [
+                        96,
+                        103
+                    ]
+                },
+                {
+                    "text": "getingear",
+                    "indices": [
+                        104,
+                        114
+                    ]
+                },
+                {
+                    "text": "fishing",
+                    "indices": [
+                        115,
+                        123
+                    ]
+                },
+                {
+                    "text": "cycling",
+                    "indices": [
+                        124,
+                        132
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "StribOutdoors",
+                    "name": "StarTribune Outdoors",
+                    "id": 720635083414052900,
+                    "id_str": "720635083414052867",
+                    "indices": [
+                        3,
+                        17
+                    ]
+                }
+            ],
+            "urls": [
+                {
+                    "url": "https://t.co/RKmxgYU7dn",
+                    "expanded_url": "http://strib.mn/2I07cX8",
+                    "display_url": "strib.mn/2I07cX8",
+                    "indices": [
+                        49,
+                        72
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 979169174114226200,
+            "id_str": "979169174114226177",
+            "name": "mg_bootcamp",
+            "screen_name": "mg_bootcamp",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 0,
+            "friends_count": 4,
+            "listed_count": 0,
+            "created_at": "Thu Mar 29 01:31:38 +0000 2018",
+            "favourites_count": 7,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 21,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": true,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Fri Mar 23 13:52:18 +0000 2018",
+            "id": 977181243094782000,
+            "id_str": "977181243094781952",
+            "text": "Ideas for a Minnesota spring: https://t.co/RKmxgYU7dn #birding #trailrunning #cuyuna #getingear #fishing #cycling… https://t.co/kfG5FcnI7D",
+            "truncated": true,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "birding",
+                        "indices": [
+                            54,
+                            62
+                        ]
+                    },
+                    {
+                        "text": "trailrunning",
+                        "indices": [
+                            63,
+                            76
+                        ]
+                    },
+                    {
+                        "text": "cuyuna",
+                        "indices": [
+                            77,
+                            84
+                        ]
+                    },
+                    {
+                        "text": "getingear",
+                        "indices": [
+                            85,
+                            95
+                        ]
+                    },
+                    {
+                        "text": "fishing",
+                        "indices": [
+                            96,
+                            104
+                        ]
+                    },
+                    {
+                        "text": "cycling",
+                        "indices": [
+                            105,
+                            113
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/RKmxgYU7dn",
+                        "expanded_url": "http://strib.mn/2I07cX8",
+                        "display_url": "strib.mn/2I07cX8",
+                        "indices": [
+                            30,
+                            53
+                        ]
+                    },
+                    {
+                        "url": "https://t.co/kfG5FcnI7D",
+                        "expanded_url": "https://twitter.com/i/web/status/977181243094781952",
+                        "display_url": "twitter.com/i/web/status/9…",
+                        "indices": [
+                            115,
+                            138
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 720635083414052900,
+                "id_str": "720635083414052867",
+                "name": "StarTribune Outdoors",
+                "screen_name": "StribOutdoors",
+                "location": "Twin Cities, MN",
+                "description": "From breaking news to features, reflecting all that is the outdoors in Minnesota.",
+                "url": "https://t.co/9ngedmR39E",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/9ngedmR39E",
+                                "expanded_url": "http://startribune.com/outdoors",
+                                "display_url": "startribune.com/outdoors",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 1123,
+                "friends_count": 573,
+                "listed_count": 30,
+                "created_at": "Thu Apr 14 15:29:27 +0000 2016",
+                "favourites_count": 769,
+                "utc_offset": -18000,
+                "time_zone": "Central Time (US & Canada)",
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 3288,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "F5F8FA",
+                "profile_background_image_url": null,
+                "profile_background_image_url_https": null,
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/720635827634614272/yF49yQwP_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/720635827634614272/yF49yQwP_normal.jpg",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 3,
+            "favorite_count": 4,
+            "favorited": false,
+            "retweeted": true,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 3,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": true,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Mar 30 14:59:08 +0000 2018",
+        "id": 979734780622311400,
+        "id_str": "979734780622311426",
+        "text": "RT @FishingWatch: Brainerd ice fishing contest winners pass lie detector tests, can keep prizes - Minneapolis Star Tribune https://t.co/GiX…",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "FishingWatch",
+                    "name": "Fishing Watch",
+                    "id": 620480171,
+                    "id_str": "620480171",
+                    "indices": [
+                        3,
+                        16
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 979169174114226200,
+            "id_str": "979169174114226177",
+            "name": "mg_bootcamp",
+            "screen_name": "mg_bootcamp",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 0,
+            "friends_count": 4,
+            "listed_count": 0,
+            "created_at": "Thu Mar 29 01:31:38 +0000 2018",
+            "favourites_count": 7,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 21,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": true,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Fri Feb 09 07:37:33 +0000 2018",
+            "id": 961866645869178900,
+            "id_str": "961866645869178880",
+            "text": "Brainerd ice fishing contest winners pass lie detector tests, can keep prizes - Minneapolis Star Tribune https://t.co/GiXDeHR02y",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/GiXDeHR02y",
+                        "expanded_url": "http://dlvr.it/QFdtnb",
+                        "display_url": "dlvr.it/QFdtnb",
+                        "indices": [
+                            105,
+                            128
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"https://dlvrit.com/\" rel=\"nofollow\">dlvr.it</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 620480171,
+                "id_str": "620480171",
+                "name": "Fishing Watch",
+                "screen_name": "FishingWatch",
+                "location": "CANADA, Markham ",
+                "description": "Tweeting about top fantasy Fishing stories",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 3395,
+                "friends_count": 2655,
+                "listed_count": 61,
+                "created_at": "Thu Jun 28 00:38:36 +0000 2012",
+                "favourites_count": 0,
+                "utc_offset": 28800,
+                "time_zone": "Beijing",
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 35842,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "000000",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/729864502/4ec5e68523bd2b0c9ca56380657fbaaa.jpeg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/729864502/4ec5e68523bd2b0c9ca56380657fbaaa.jpeg",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/2935181320/02a3f18e94d9915c7392c74c2a75670a_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/2935181320/02a3f18e94d9915c7392c74c2a75670a_normal.jpeg",
+                "profile_link_color": "0000FF",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 1,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": true,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": true,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Mar 30 14:58:30 +0000 2018",
+        "id": 979734619493929000,
+        "id_str": "979734619493928962",
+        "text": "RT @FishingWatch: Minn. Fishing Hall of Fame enshrines 3 - https://t.co/UQFEl15qy7 - Minneapolis Star Tribune https://t.co/uAtZ0sxnmv",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "FishingWatch",
+                    "name": "Fishing Watch",
+                    "id": 620480171,
+                    "id_str": "620480171",
+                    "indices": [
+                        3,
+                        16
+                    ]
+                }
+            ],
+            "urls": [
+                {
+                    "url": "https://t.co/UQFEl15qy7",
+                    "expanded_url": "http://StarTribune.com",
+                    "display_url": "StarTribune.com",
+                    "indices": [
+                        59,
+                        82
+                    ]
+                },
+                {
+                    "url": "https://t.co/uAtZ0sxnmv",
+                    "expanded_url": "http://dlvr.it/QMdVbg",
+                    "display_url": "dlvr.it/QMdVbg",
+                    "indices": [
+                        110,
+                        133
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 979169174114226200,
+            "id_str": "979169174114226177",
+            "name": "mg_bootcamp",
+            "screen_name": "mg_bootcamp",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 0,
+            "friends_count": 4,
+            "listed_count": 0,
+            "created_at": "Thu Mar 29 01:31:38 +0000 2018",
+            "favourites_count": 7,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 21,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": true,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Wed Mar 28 09:06:30 +0000 2018",
+            "id": 978921261093933000,
+            "id_str": "978921261093933056",
+            "text": "Minn. Fishing Hall of Fame enshrines 3 - https://t.co/UQFEl15qy7 - Minneapolis Star Tribune https://t.co/uAtZ0sxnmv",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/UQFEl15qy7",
+                        "expanded_url": "http://StarTribune.com",
+                        "display_url": "StarTribune.com",
+                        "indices": [
+                            41,
+                            64
+                        ]
+                    },
+                    {
+                        "url": "https://t.co/uAtZ0sxnmv",
+                        "expanded_url": "http://dlvr.it/QMdVbg",
+                        "display_url": "dlvr.it/QMdVbg",
+                        "indices": [
+                            92,
+                            115
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"https://dlvrit.com/\" rel=\"nofollow\">dlvr.it</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 620480171,
+                "id_str": "620480171",
+                "name": "Fishing Watch",
+                "screen_name": "FishingWatch",
+                "location": "CANADA, Markham ",
+                "description": "Tweeting about top fantasy Fishing stories",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 3395,
+                "friends_count": 2655,
+                "listed_count": 61,
+                "created_at": "Thu Jun 28 00:38:36 +0000 2012",
+                "favourites_count": 0,
+                "utc_offset": 28800,
+                "time_zone": "Beijing",
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 35842,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "000000",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/729864502/4ec5e68523bd2b0c9ca56380657fbaaa.jpeg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/729864502/4ec5e68523bd2b0c9ca56380657fbaaa.jpeg",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/2935181320/02a3f18e94d9915c7392c74c2a75670a_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/2935181320/02a3f18e94d9915c7392c74c2a75670a_normal.jpeg",
+                "profile_link_color": "0000FF",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 1,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": true,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": true,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Mar 30 14:57:01 +0000 2018",
+        "id": 979734244938469400,
+        "id_str": "979734244938469377",
+        "text": "RT @UMNCSE: Welcome to 290 prospective students and their families from 16 states who are on campus for today’s CSE Showcase! https://t.co/…",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "UMNCSE",
+                    "name": "College of Sci & Eng",
+                    "id": 55233616,
+                    "id_str": "55233616",
+                    "indices": [
+                        3,
+                        10
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 979169174114226200,
+            "id_str": "979169174114226177",
+            "name": "mg_bootcamp",
+            "screen_name": "mg_bootcamp",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 0,
+            "friends_count": 4,
+            "listed_count": 0,
+            "created_at": "Thu Mar 29 01:31:38 +0000 2018",
+            "favourites_count": 7,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 21,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": true,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Tue Mar 27 21:11:11 +0000 2018",
+            "id": 978741246268248000,
+            "id_str": "978741246268248065",
+            "text": "Welcome to 290 prospective students and their families from 16 states who are on campus for today’s CSE Showcase! https://t.co/XP9tXuD1kV",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 978741237409710100,
+                        "id_str": "978741237409710081",
+                        "indices": [
+                            114,
+                            137
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DZUv-EbVAAEU21Z.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DZUv-EbVAAEU21Z.jpg",
+                        "url": "https://t.co/XP9tXuD1kV",
+                        "display_url": "pic.twitter.com/XP9tXuD1kV",
+                        "expanded_url": "https://twitter.com/UMNCSE/status/978741246268248065/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 1536,
+                                "h": 2048,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 900,
+                                "h": 1200,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 510,
+                                "h": 680,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 978741237409710100,
+                        "id_str": "978741237409710081",
+                        "indices": [
+                            114,
+                            137
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DZUv-EbVAAEU21Z.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DZUv-EbVAAEU21Z.jpg",
+                        "url": "https://t.co/XP9tXuD1kV",
+                        "display_url": "pic.twitter.com/XP9tXuD1kV",
+                        "expanded_url": "https://twitter.com/UMNCSE/status/978741246268248065/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 1536,
+                                "h": 2048,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 900,
+                                "h": 1200,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 510,
+                                "h": 680,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 55233616,
+                "id_str": "55233616",
+                "name": "College of Sci & Eng",
+                "screen_name": "UMNCSE",
+                "location": "Minneapolis, MN",
+                "description": "The official Twitter page of the University of Minnesota-Twin Cities College of Science and Engineering",
+                "url": "http://t.co/hLsviIDZgp",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/hLsviIDZgp",
+                                "expanded_url": "http://cse.umn.edu/",
+                                "display_url": "cse.umn.edu",
+                                "indices": [
+                                    0,
+                                    22
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 5205,
+                "friends_count": 552,
+                "listed_count": 215,
+                "created_at": "Thu Jul 09 13:24:54 +0000 2009",
+                "favourites_count": 2963,
+                "utc_offset": -18000,
+                "time_zone": "Central Time (US & Canada)",
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 7878,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "7A0018",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/43881816/twitter-1600x1800-maroon.gif",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/43881816/twitter-1600x1800-maroon.gif",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/916247044/UofM-socialnet-icons_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/916247044/UofM-socialnet-icons_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/55233616/1507059511",
+                "profile_link_color": "7A0018",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "FFCC33",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 4,
+            "favorite_count": 11,
+            "favorited": false,
+            "retweeted": true,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 4,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": true,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Mar 30 14:56:35 +0000 2018",
+        "id": 979734137534910500,
+        "id_str": "979734137534910465",
+        "text": "RT @UMNCSE: STUDENTS: The CSE Career Center is seeking peer assistants! Some job duties include: reviewing resumes, social media, and event…",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "UMNCSE",
+                    "name": "College of Sci & Eng",
+                    "id": 55233616,
+                    "id_str": "55233616",
+                    "indices": [
+                        3,
+                        10
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 979169174114226200,
+            "id_str": "979169174114226177",
+            "name": "mg_bootcamp",
+            "screen_name": "mg_bootcamp",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 0,
+            "friends_count": 4,
+            "listed_count": 0,
+            "created_at": "Thu Mar 29 01:31:38 +0000 2018",
+            "favourites_count": 7,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 21,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": true,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Thu Mar 29 17:30:42 +0000 2018",
+            "id": 979410532661956600,
+            "id_str": "979410532661956608",
+            "text": "STUDENTS: The CSE Career Center is seeking peer assistants! Some job duties include: reviewing resumes, social medi… https://t.co/cYrXQbBSZr",
+            "truncated": true,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/cYrXQbBSZr",
+                        "expanded_url": "https://twitter.com/i/web/status/979410532661956608",
+                        "display_url": "twitter.com/i/web/status/9…",
+                        "indices": [
+                            117,
+                            140
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 55233616,
+                "id_str": "55233616",
+                "name": "College of Sci & Eng",
+                "screen_name": "UMNCSE",
+                "location": "Minneapolis, MN",
+                "description": "The official Twitter page of the University of Minnesota-Twin Cities College of Science and Engineering",
+                "url": "http://t.co/hLsviIDZgp",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/hLsviIDZgp",
+                                "expanded_url": "http://cse.umn.edu/",
+                                "display_url": "cse.umn.edu",
+                                "indices": [
+                                    0,
+                                    22
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 5205,
+                "friends_count": 552,
+                "listed_count": 215,
+                "created_at": "Thu Jul 09 13:24:54 +0000 2009",
+                "favourites_count": 2963,
+                "utc_offset": -18000,
+                "time_zone": "Central Time (US & Canada)",
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 7878,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "7A0018",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/43881816/twitter-1600x1800-maroon.gif",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/43881816/twitter-1600x1800-maroon.gif",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/916247044/UofM-socialnet-icons_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/916247044/UofM-socialnet-icons_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/55233616/1507059511",
+                "profile_link_color": "7A0018",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "FFCC33",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 4,
+            "favorite_count": 1,
+            "favorited": false,
+            "retweeted": true,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 4,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": true,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Mar 30 14:55:58 +0000 2018",
+        "id": 979733982588952600,
+        "id_str": "979733982588952577",
+        "text": "RT @GopherFootball: The #Gophers return multiple playmakers at the linebacker position in 2018. They have 12 true LBs on the roster includi…",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "Gophers",
+                    "indices": [
+                        24,
+                        32
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "GopherFootball",
+                    "name": "Minnesota Football",
+                    "id": 26813914,
+                    "id_str": "26813914",
+                    "indices": [
+                        3,
+                        18
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 979169174114226200,
+            "id_str": "979169174114226177",
+            "name": "mg_bootcamp",
+            "screen_name": "mg_bootcamp",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 0,
+            "friends_count": 4,
+            "listed_count": 0,
+            "created_at": "Thu Mar 29 01:31:38 +0000 2018",
+            "favourites_count": 7,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 21,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": true,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Thu Mar 29 20:28:57 +0000 2018",
+            "id": 979455391909269500,
+            "id_str": "979455391909269505",
+            "text": "The #Gophers return multiple playmakers at the linebacker position in 2018. They have 12 true LBs on the roster inc… https://t.co/eGOD88N90X",
+            "truncated": true,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "Gophers",
+                        "indices": [
+                            4,
+                            12
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/eGOD88N90X",
+                        "expanded_url": "https://twitter.com/i/web/status/979455391909269505",
+                        "display_url": "twitter.com/i/web/status/9…",
+                        "indices": [
+                            117,
+                            140
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 26813914,
+                "id_str": "26813914",
+                "name": "Minnesota Football",
+                "screen_name": "GopherFootball",
+                "location": "Minneapolis, Minn.",
+                "description": "The official Twitter feed of Golden Gopher Football. #GopherGameDay #Gophers - Elite Access content presented by @cubfoods.",
+                "url": "https://t.co/GowfjGcD8W",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/GowfjGcD8W",
+                                "expanded_url": "http://z.umn.edu/gfootball",
+                                "display_url": "z.umn.edu/gfootball",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 89713,
+                "friends_count": 154,
+                "listed_count": 835,
+                "created_at": "Thu Mar 26 18:34:54 +0000 2009",
+                "favourites_count": 5271,
+                "utc_offset": -18000,
+                "time_zone": "Central Time (US & Canada)",
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 27558,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "131516",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/461547932240461824/wC74it5Y.jpeg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/461547932240461824/wC74it5Y.jpeg",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/885610651464454146/R3n2aVfv_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/885610651464454146/R3n2aVfv_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/26813914/1519144486",
+                "profile_link_color": "570303",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "EFEFEF",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 4,
+            "favorite_count": 34,
+            "favorited": false,
+            "retweeted": true,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 4,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": true,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Mar 30 14:55:34 +0000 2018",
+        "id": 979733881845944300,
+        "id_str": "979733881845944321",
+        "text": "RT @GopherFootball: Time to start thinking about what side you are going to pick! #Gophers #SkiUMah #RTB\n\nGold: @CoachSmithMN &amp; @Numerouno1…",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "Gophers",
+                    "indices": [
+                        82,
+                        90
+                    ]
+                },
+                {
+                    "text": "SkiUMah",
+                    "indices": [
+                        91,
+                        99
+                    ]
+                },
+                {
+                    "text": "RTB",
+                    "indices": [
+                        100,
+                        104
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "GopherFootball",
+                    "name": "Minnesota Football",
+                    "id": 26813914,
+                    "id_str": "26813914",
+                    "indices": [
+                        3,
+                        18
+                    ]
+                },
+                {
+                    "screen_name": "CoachSmithMN",
+                    "name": "Robb Smith",
+                    "id": 2342275526,
+                    "id_str": "2342275526",
+                    "indices": [
+                        112,
+                        125
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 979169174114226200,
+            "id_str": "979169174114226177",
+            "name": "mg_bootcamp",
+            "screen_name": "mg_bootcamp",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 0,
+            "friends_count": 4,
+            "listed_count": 0,
+            "created_at": "Thu Mar 29 01:31:38 +0000 2018",
+            "favourites_count": 7,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 21,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": true,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Thu Mar 29 01:21:34 +0000 2018",
+            "id": 979166641870262300,
+            "id_str": "979166641870262273",
+            "text": "Time to start thinking about what side you are going to pick! #Gophers #SkiUMah #RTB\n\nGold: @CoachSmithMN &amp;… https://t.co/2DEzZn5Xgy",
+            "truncated": true,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "Gophers",
+                        "indices": [
+                            62,
+                            70
+                        ]
+                    },
+                    {
+                        "text": "SkiUMah",
+                        "indices": [
+                            71,
+                            79
+                        ]
+                    },
+                    {
+                        "text": "RTB",
+                        "indices": [
+                            80,
+                            84
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "CoachSmithMN",
+                        "name": "Robb Smith",
+                        "id": 2342275526,
+                        "id_str": "2342275526",
+                        "indices": [
+                            92,
+                            105
+                        ]
+                    }
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/2DEzZn5Xgy",
+                        "expanded_url": "https://twitter.com/i/web/status/979166641870262273",
+                        "display_url": "twitter.com/i/web/status/9…",
+                        "indices": [
+                            113,
+                            136
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 26813914,
+                "id_str": "26813914",
+                "name": "Minnesota Football",
+                "screen_name": "GopherFootball",
+                "location": "Minneapolis, Minn.",
+                "description": "The official Twitter feed of Golden Gopher Football. #GopherGameDay #Gophers - Elite Access content presented by @cubfoods.",
+                "url": "https://t.co/GowfjGcD8W",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/GowfjGcD8W",
+                                "expanded_url": "http://z.umn.edu/gfootball",
+                                "display_url": "z.umn.edu/gfootball",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 89713,
+                "friends_count": 154,
+                "listed_count": 835,
+                "created_at": "Thu Mar 26 18:34:54 +0000 2009",
+                "favourites_count": 5271,
+                "utc_offset": -18000,
+                "time_zone": "Central Time (US & Canada)",
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 27558,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "131516",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/461547932240461824/wC74it5Y.jpeg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/461547932240461824/wC74it5Y.jpeg",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/885610651464454146/R3n2aVfv_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/885610651464454146/R3n2aVfv_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/26813914/1519144486",
+                "profile_link_color": "570303",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "EFEFEF",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 16,
+            "favorite_count": 71,
+            "favorited": true,
+            "retweeted": true,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 16,
+        "favorite_count": 0,
+        "favorited": true,
+        "retweeted": true,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Mar 30 00:36:45 +0000 2018",
+        "id": 979517752221237200,
+        "id_str": "979517752221237248",
+        "text": "RT @bbcweather: For those of you travelling further afield this #Easter, here's a quick look at the weather around the world: https://t.co/…",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "Easter",
+                    "indices": [
+                        64,
+                        71
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "bbcweather",
+                    "name": "BBC Weather",
+                    "id": 142614009,
+                    "id_str": "142614009",
+                    "indices": [
+                        3,
+                        14
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 979169174114226200,
+            "id_str": "979169174114226177",
+            "name": "mg_bootcamp",
+            "screen_name": "mg_bootcamp",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 0,
+            "friends_count": 4,
+            "listed_count": 0,
+            "created_at": "Thu Mar 29 01:31:38 +0000 2018",
+            "favourites_count": 7,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 21,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": true,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Thu Mar 29 20:17:05 +0000 2018",
+            "id": 979452406944673800,
+            "id_str": "979452406944673793",
+            "text": "For those of you travelling further afield this #Easter, here's a quick look at the weather around the world:… https://t.co/r2sNGZw4fY",
+            "truncated": true,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "Easter",
+                        "indices": [
+                            48,
+                            55
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/r2sNGZw4fY",
+                        "expanded_url": "https://twitter.com/i/web/status/979452406944673793",
+                        "display_url": "twitter.com/i/web/status/9…",
+                        "indices": [
+                            111,
+                            134
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://www.socialflow.com\" rel=\"nofollow\">SocialFlow</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 142614009,
+                "id_str": "142614009",
+                "name": "BBC Weather",
+                "screen_name": "bbcweather",
+                "location": "United Kingdom",
+                "description": "Never get caught out by the weather! Official BBC Weather account, run by presenters and producers. Forecasts, videos and behind-the-scenes chat.",
+                "url": "http://t.co/i7BokQiChC",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/i7BokQiChC",
+                                "expanded_url": "http://www.bbc.co.uk/weather",
+                                "display_url": "bbc.co.uk/weather",
+                                "indices": [
+                                    0,
+                                    22
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 401495,
+                "friends_count": 35,
+                "listed_count": 2559,
+                "created_at": "Tue May 11 09:17:20 +0000 2010",
+                "favourites_count": 141,
+                "utc_offset": 3600,
+                "time_zone": "London",
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 70719,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/925686898466738176/MdtXldIy_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/925686898466738176/MdtXldIy_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/142614009/1518195203",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 15,
+            "favorite_count": 37,
+            "favorited": true,
+            "retweeted": true,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 15,
+        "favorite_count": 0,
+        "favorited": true,
+        "retweeted": true,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Mar 30 00:35:15 +0000 2018",
+        "id": 979517375132389400,
+        "id_str": "979517375132389378",
+        "text": "RT @WCCO: Even though the temperature climbed into the 40s on Thursday, there was a wind making it feel more like it was in the 20s. And th…",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "WCCO",
+                    "name": "WCCO - CBS Minnesota",
+                    "id": 13000872,
+                    "id_str": "13000872",
+                    "indices": [
+                        3,
+                        8
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 979169174114226200,
+            "id_str": "979169174114226177",
+            "name": "mg_bootcamp",
+            "screen_name": "mg_bootcamp",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 0,
+            "friends_count": 4,
+            "listed_count": 0,
+            "created_at": "Thu Mar 29 01:31:38 +0000 2018",
+            "favourites_count": 7,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 21,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": true,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Fri Mar 30 00:19:07 +0000 2018",
+            "id": 979513316530970600,
+            "id_str": "979513316530970625",
+            "text": "Even though the temperature climbed into the 40s on Thursday, there was a wind making it feel more like it was in t… https://t.co/I3A97yKbzc",
+            "truncated": true,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/I3A97yKbzc",
+                        "expanded_url": "https://twitter.com/i/web/status/979513316530970625",
+                        "display_url": "twitter.com/i/web/status/9…",
+                        "indices": [
+                            117,
+                            140
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://www.socialnewsdesk.com\" rel=\"nofollow\">SocialNewsDesk</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 13000872,
+                "id_str": "13000872",
+                "name": "WCCO - CBS Minnesota",
+                "screen_name": "WCCO",
+                "location": "Minneapolis, MN",
+                "description": "Thanks for your interest in WCCO/ CBS Minnesota - the place for local news updates! Want more WCCO? Go to @WCCOBreaking, @WCCOWeather, @WCCOetc",
+                "url": "https://t.co/Lfs9D6XoAP",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/Lfs9D6XoAP",
+                                "expanded_url": "http://www.wcco.com",
+                                "display_url": "wcco.com",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 194413,
+                "friends_count": 7261,
+                "listed_count": 1763,
+                "created_at": "Sun Feb 03 05:22:48 +0000 2008",
+                "favourites_count": 201,
+                "utc_offset": -21600,
+                "time_zone": "Mountain Time (US & Canada)",
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 75893,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "B8BAC1",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/879682443606765569/RjY_0e5q_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/879682443606765569/RjY_0e5q_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/13000872/1517945492",
+                "profile_link_color": "CE1F09",
+                "profile_sidebar_border_color": "181A1E",
+                "profile_sidebar_fill_color": "EFEFF0",
+                "profile_text_color": "666666",
+                "profile_use_background_image": false,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": true,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "regular"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 1,
+            "favorite_count": 3,
+            "favorited": true,
+            "retweeted": true,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "favorited": true,
+        "retweeted": true,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Mar 30 00:34:38 +0000 2018",
+        "id": 979517221314682900,
+        "id_str": "979517221314682885",
+        "text": "RT @NWSTwinCities: A couple of snow chances are coming to central MN tonight and again Friday night.  This won't be the end of the snow tho…",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "NWSTwinCities",
+                    "name": "NWS Twin Cities",
+                    "id": 602065304,
+                    "id_str": "602065304",
+                    "indices": [
+                        3,
+                        17
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 979169174114226200,
+            "id_str": "979169174114226177",
+            "name": "mg_bootcamp",
+            "screen_name": "mg_bootcamp",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 0,
+            "friends_count": 4,
+            "listed_count": 0,
+            "created_at": "Thu Mar 29 01:31:38 +0000 2018",
+            "favourites_count": 7,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 21,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": true,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Thu Mar 29 22:20:20 +0000 2018",
+            "id": 979483424435130400,
+            "id_str": "979483424435130369",
+            "text": "A couple of snow chances are coming to central MN tonight and again Friday night.  This won't be the end of the sno… https://t.co/0B8wXvuUmK",
+            "truncated": true,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/0B8wXvuUmK",
+                        "expanded_url": "https://twitter.com/i/web/status/979483424435130369",
+                        "display_url": "twitter.com/i/web/status/9…",
+                        "indices": [
+                            117,
+                            140
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 602065304,
+                "id_str": "602065304",
+                "name": "NWS Twin Cities",
+                "screen_name": "NWSTwinCities",
+                "location": "Chanhassen, MN",
+                "description": "Official Twitter account for the National Weather Service Twin Cities, Minnesota. Details: http://t.co/DT7PGbdIaq",
+                "url": "http://t.co/4a5dOlGUxr",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/4a5dOlGUxr",
+                                "expanded_url": "http://weather.gov/twincities",
+                                "display_url": "weather.gov/twincities",
+                                "indices": [
+                                    0,
+                                    22
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/DT7PGbdIaq",
+                                "expanded_url": "http://weather.gov/twitter",
+                                "display_url": "weather.gov/twitter",
+                                "indices": [
+                                    91,
+                                    113
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "followers_count": 36455,
+                "friends_count": 427,
+                "listed_count": 741,
+                "created_at": "Thu Jun 07 17:50:50 +0000 2012",
+                "favourites_count": 15260,
+                "utc_offset": -18000,
+                "time_zone": "Central Time (US & Canada)",
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 24006,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/573014912/sl1mzykp2h3xokm9wp1l.jpeg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/573014912/sl1mzykp2h3xokm9wp1l.jpeg",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/877195412729241600/swkVZ-ek_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/877195412729241600/swkVZ-ek_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/602065304/1426022273",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": true,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 25,
+            "favorite_count": 30,
+            "favorited": true,
+            "retweeted": true,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 25,
+        "favorite_count": 0,
+        "favorited": true,
+        "retweeted": true,
+        "lang": "en"
+    },
+    {
+        "created_at": "Thu Mar 29 01:39:16 +0000 2018",
+        "id": 979171099689865200,
+        "id_str": "979171099689865217",
+        "text": "Go Gophers! https://t.co/l1sE15kzvN",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 979171089891733500,
+                    "id_str": "979171089891733504",
+                    "indices": [
+                        12,
+                        35
+                    ],
+                    "media_url": "http://pbs.twimg.com/tweet_video_thumb/DZa26xtUMAA1CfS.jpg",
+                    "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DZa26xtUMAA1CfS.jpg",
+                    "url": "https://t.co/l1sE15kzvN",
+                    "display_url": "pic.twitter.com/l1sE15kzvN",
+                    "expanded_url": "https://twitter.com/mg_bootcamp/status/979171099689865217/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 244,
+                            "h": 180,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 244,
+                            "h": 180,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 244,
+                            "h": 180,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 979171089891733500,
+                    "id_str": "979171089891733504",
+                    "indices": [
+                        12,
+                        35
+                    ],
+                    "media_url": "http://pbs.twimg.com/tweet_video_thumb/DZa26xtUMAA1CfS.jpg",
+                    "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DZa26xtUMAA1CfS.jpg",
+                    "url": "https://t.co/l1sE15kzvN",
+                    "display_url": "pic.twitter.com/l1sE15kzvN",
+                    "expanded_url": "https://twitter.com/mg_bootcamp/status/979171099689865217/photo/1",
+                    "type": "animated_gif",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 244,
+                            "h": 180,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 244,
+                            "h": 180,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 244,
+                            "h": 180,
+                            "resize": "fit"
+                        }
+                    },
+                    "video_info": {
+                        "aspect_ratio": [
+                            61,
+                            45
+                        ],
+                        "variants": [
+                            {
+                                "bitrate": 0,
+                                "content_type": "video/mp4",
+                                "url": "https://video.twimg.com/tweet_video/DZa26xtUMAA1CfS.mp4"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 979169174114226200,
+            "id_str": "979169174114226177",
+            "name": "mg_bootcamp",
+            "screen_name": "mg_bootcamp",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 0,
+            "friends_count": 4,
+            "listed_count": 0,
+            "created_at": "Thu Mar 29 01:31:38 +0000 2018",
+            "favourites_count": 7,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 21,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": true,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "favorited": true,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Thu Mar 29 01:38:22 +0000 2018",
+        "id": 979170870739591200,
+        "id_str": "979170870739591168",
+        "text": "This is a tweet for the world to see. https://t.co/jYRrt1CTxL",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 979170847721050100,
+                    "id_str": "979170847721050112",
+                    "indices": [
+                        38,
+                        61
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/DZa2srjU0AAcl67.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/DZa2srjU0AAcl67.jpg",
+                    "url": "https://t.co/jYRrt1CTxL",
+                    "display_url": "pic.twitter.com/jYRrt1CTxL",
+                    "expanded_url": "https://twitter.com/mg_bootcamp/status/979170870739591168/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 404,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 800,
+                            "h": 475,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 800,
+                            "h": 475,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 979170847721050100,
+                    "id_str": "979170847721050112",
+                    "indices": [
+                        38,
+                        61
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/DZa2srjU0AAcl67.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/DZa2srjU0AAcl67.jpg",
+                    "url": "https://t.co/jYRrt1CTxL",
+                    "display_url": "pic.twitter.com/jYRrt1CTxL",
+                    "expanded_url": "https://twitter.com/mg_bootcamp/status/979170870739591168/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 404,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 800,
+                            "h": 475,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 800,
+                            "h": 475,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 979169174114226200,
+            "id_str": "979169174114226177",
+            "name": "mg_bootcamp",
+            "screen_name": "mg_bootcamp",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 0,
+            "friends_count": 4,
+            "listed_count": 0,
+            "created_at": "Thu Mar 29 01:31:38 +0000 2018",
+            "favourites_count": 7,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 21,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": true,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    }
+]

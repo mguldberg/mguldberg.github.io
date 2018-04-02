@@ -1,0 +1,26 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "homework 8 - liri",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mguldberg/liri-node-app.git"
+  },
+  "author": "Martin Guldberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mguldberg/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/mguldberg/liri-node-app#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "inquirer": "^5.2.0",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.85.0",
+    "twitter": "^1.7.1"
+  }
+}
