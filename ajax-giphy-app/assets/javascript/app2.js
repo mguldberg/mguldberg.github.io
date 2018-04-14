@@ -144,8 +144,42 @@ $(document).ready(function () {
                 queryLibraryOfCongressApi(topic);
                 break;
         };
+
+
     });
 
+
+    $("body").on("click", "#topic-buttons", function () {
+        console.log("inside btn click handler2");
+        // Preventing the submit button from trying to submit the form
+        // We're optionally using a form so the user may hit Enter to search instead of clicking the button
+        // event.preventDefault();
+
+        // Here we grab the text from the input box
+        var topic = $(this).val();
+        // $(this).closest(".topic-btn").fadeOut();
+        $(this).find("#closeBtn").hide(200);
+
+
+        console.log($(this).closest("topic-btn"));
+        console.log($(this).attr("search-option"));
+
+        switch ($(this).attr("search-option")) {
+            case "giphy":
+                queryGiphyApi(topic);
+                break;
+
+            case "omdb":
+                queryOMDbApi(topic);
+                break;
+
+            case "us-loc":
+                queryLibraryOfCongressApi(topic);
+                break;
+        };
+
+        
+    });
 
 });
 
@@ -227,24 +261,123 @@ function queryLibraryOfCongressApi(searchString) {
         type: "GET",
         url: queryURL,
         dataType: 'jsonp',
-        data: {
-            fo: 'jsonp',
-            at: 'featured'
-        }
+        // data: {
+        //     fo: 'jsonp',
+        //     at: 'featured'
+        // }
     }).done(function (getImages) {
         console.log(getImages);
-        console.log(getImages.reseults.length);
+        console.log(getImages.results.length);
+        for (var i = 0; i < getImages.results.length; i++) {
+
+            var getGifDiv = $("<div class='card border bg-light' >");
+
+            // wrap img in a div so I can put on a download icon
+            var imgDiv = $('<div id="imgDiv">');
+            //create image element with all attr to support start/stop of the animated GIF
+            //also included alt element
+            var topicImage = $("<img>");
+            topicImage.attr("src", "http:" + getImages.results[i].image.full);
+            console.log(getImages.results[i].image.full)
+
+            topicImage.attr("class", "us-loc-gif mx-auto d-block")
+            topicImage.attr("alt", getImages.results[i].title);
+            topicImage.attr("title", getImages.results[i].title);
+
+            //format for the download icon link
+            //<a href="https://media3.giphy.com/media/26hirEPeos6yugLDO/100.gif" download="100.gif" class="top-right">
+            //      <i style="font-size:18px" class="fa">&#xf019</i>
+            //</a>
+            // var downloadAnchor = $('<a id="download-link" class="top-right">');
+
+            // downloadAnchor.attr("href", getGif.data[i].images.fixed_height_small.url);
+            // // put the download font awesome on the row linked to the image URL
+            // downloadAnchor.html('<i style="font-size:18px" class="fa">&#xf019</i>');
+
+            // //fill up the imgDiv
+            // imgDiv.prepend(downloadAnchor);
+            imgDiv.prepend(topicImage);
+
+            //put the imgDiv at the top of the parent GIF Div
+            getGifDiv.prepend(imgDiv);
+
+            console.log(getGifDiv);
+            $("#gif-content").prepend(getGifDiv);
+        }
+    });
+
+}
+
+function queryTwitterApi(searchString) {
+
+    // https://api.twitter.com/1.1/search/tweets.json 
+    // Built by LucyBot. www.lucybot.com at the NYT api help website
+    var queryURL = "https://api.twitter.com/1.1/search/tweets.json";
+    queryURL += '?' + $.param({
+        'q': searchString,
+        'c': "10",
+        'sp': "1",
+        'st': "gallery",
+        'fo': "json",
+        'fa': ""
 
     });
+
+    queryURL += "displayed%3Aanywhere";
+    // queryURL =  "https://loc.gov/pictures/item/89709841/?fo=json";
+
+    console.log(queryURL);
+
 
     $.ajax({
-        METHOD: "GET",
+        type: "GET",
         url: queryURL,
+        dataType: 'jsonp',
+        // data: {
+        //     fo: 'jsonp',
+        //     at: 'featured'
+        // }
     }).done(function (getImages) {
         console.log(getImages);
-        console.log(getImages.reseults.length);
+        console.log(getImages.results.length);
+        for (var i = 0; i < getImages.results.length; i++) {
 
+            var getGifDiv = $("<div class='card border bg-light' >");
+
+            // wrap img in a div so I can put on a download icon
+            var imgDiv = $('<div id="imgDiv">');
+            //create image element with all attr to support start/stop of the animated GIF
+            //also included alt element
+            var topicImage = $("<img>");
+            topicImage.attr("src", "http:" + getImages.results[i].image.full);
+            console.log(getImages.results[i].image.full)
+
+            topicImage.attr("class", "us-loc-gif mx-auto d-block")
+            topicImage.attr("alt", getImages.results[i].title);
+            topicImage.attr("title", getImages.results[i].title);
+
+            //format for the download icon link
+            //<a href="https://media3.giphy.com/media/26hirEPeos6yugLDO/100.gif" download="100.gif" class="top-right">
+            //      <i style="font-size:18px" class="fa">&#xf019</i>
+            //</a>
+            // var downloadAnchor = $('<a id="download-link" class="top-right">');
+
+            // downloadAnchor.attr("href", getGif.data[i].images.fixed_height_small.url);
+            // // put the download font awesome on the row linked to the image URL
+            // downloadAnchor.html('<i style="font-size:18px" class="fa">&#xf019</i>');
+
+            // //fill up the imgDiv
+            // imgDiv.prepend(downloadAnchor);
+            imgDiv.prepend(topicImage);
+
+            //put the imgDiv at the top of the parent GIF Div
+            getGifDiv.prepend(imgDiv);
+
+            console.log(getGifDiv);
+            $("#gif-content").prepend(getGifDiv);
+        }
     });
+
 }
 
 //query the Giphy API
@@ -577,7 +710,7 @@ function populateButtons(arrayOfButtons) {
 
                 case "us-loc":
                     //add LOC button at the top
-                    var newButton = $("<button class='btn topic-btn bg-primary text-white' search-option=" + arrayOfButtonStored[i].searchOption + " value='" + arrayOfButtonStored[i].topic + "'>" + arrayOfButtonStored[i].topic + "</button>");
+                    var newButton = $("<button class='btn topic-btn bg-primary text-white' search-option=" + arrayOfButtonsStored[i].searchOption + " value='" + arrayOfButtonsStored[i].topic + "'>" + arrayOfButtonsStored[i].topic + "</button>");
                     $('#topic-buttons').append(newButton);
 
                     break;
