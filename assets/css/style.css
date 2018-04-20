@@ -193,6 +193,21 @@ div {
     
     }
 
+    .portfoliotextbox {
+        position: absolute;
+        height: 25px;
+        width: 100%;
+        left: 0;
+        bottom:15px;
+        font-size: 16px;
+        background-color: #4aaaa5;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        color: #ffffff;
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: 3px;
+    
+    }
     
 .img {
     position: absolute;
