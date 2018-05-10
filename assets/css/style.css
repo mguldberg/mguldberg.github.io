@@ -14,6 +14,7 @@ html, body {
  * flex-direction is put in for sticky footer */
 body {
     font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
 }
 .navbar {
@@ -56,7 +57,7 @@ a.nav-link {
 .container-top {
     background: #24436C;
     /* width: 960px; */
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    /* font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
     /* margin: 0 auto; */
 
 }
@@ -64,7 +65,7 @@ a.nav-link {
 .container-middle {
     background-image: url("../images/escheresque/escheresque.png");
     /* width: auto; */
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    /* font-family: 'Georgia', Times, Times New Roman, serif; */
     overflow: hidden;
     /* margin: 0 auto;
     margin-left:auto;
@@ -100,7 +101,7 @@ a.nav-link {
 
 #aboutmetext,
 a.nav-link {
- font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+ /* font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
 
 }
 
@@ -150,7 +151,7 @@ div {
 
 }
 #headshotimg {
-    width: 200px;
+    width: 190px;
     float: left;
     top:0;
     position: relative;
@@ -208,7 +209,7 @@ div {
         bottom:15px;
         font-size: 16px;
         background-color: #24436c;
-        font-family: 'Georgia', Times, Times New Roman, serif;
+        /* font-family: 'Georgia', Times, Times New Roman, serif; */
         color: #ffffff;
         text-align: center;
         font-weight: bold;
@@ -224,7 +225,7 @@ div {
     bottom:15px;
     font-size: 16px;
     background-color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    /* font-family: 'Georgia', Times, Times New Roman, serif; */
     color: #ffffff;
     text-align: center;
     font-weight: bold;
