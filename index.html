@@ -1,1 +1,144 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name="theme-color" content="#000000"><link rel="manifest" href="/manifest.json"><link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><title>React App</title><link href="/static/css/main.014a5079.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="game"></div><script type="text/javascript" src="/static/js/main.2c68a2fb.js"></script></body><script src="https://code.jquery.com/jquery.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script></html>
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>MG's Bio</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/sticky-footer.css" rel="stylesheet">
+    <!-- local CSS settings which will leverage the Bootstrap classes and layout -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+
+    <!-- top section with name and links to other pages - leverages bootstrap navbar -->
+    <div class="container-fluid container-top">
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <a class="navbar-brand" id="nametitle">Martin Guldberg</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarText">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">  <!-- bootstrap active class for a different color to denote the page we are currently on -->
+                        <a class="nav-link" href="index.html">About
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- open middle section vertically, inludes the wallpaper and main content -->
+    <div class="container-middle">
+        <!-- open bootstrap container - leveraging the auto sizing - no wallpaper on this -->
+        <div class="container">
+
+            <!-- open first column in row in middle container -->
+            <div class="row middle-content-container">
+
+                <!-- open first column in row in middle container - contains the content -->
+                <div class="col-sm-12 col-md-8">
+                    <div id="about-me-container">
+                        <div class="page-header">
+                            <h1 id="aboutmetitle">About Me</h1>
+                        </div>
+
+                        <!-- open row in middle content container -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div>
+                                    <img src="assets/images/IMG_0323_b.jpg" id="headshotimg" alt="Placeholder" class="img-thumbnail">
+                                </div>
+                                <div>
+                                    <p id="aboutmetext">
+                                        I'm a driven people leader. I lead my teams to be innovative in solving technical problems and delivering excellent business
+                                        results.
+                                        <br>
+                                        <br> My expertise is in leading my team to architect, plan, and operate highly available
+                                        24/7 systems and networks. These include SONET, Ethernet, IMS, and VoLTE.
+                                        <br>
+                                        <br> Additionly, I've quickly learned Full Stack Web development. In my spare time I
+                                        enjoy working on home automation projects linked to an Android mobile app.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- close first column in row in middle content container -->
+
+                        </div>
+                        <!-- close row in middle content container -->
+                    </div>
+                </div>
+                <!-- close first column in row in middle container - contains the content -->
+
+                <!-- open second column in row in middle container - contains the connect with me content -->
+                <div class="col-sm-12 col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Connect With Me</h3>
+                        </div>
+                        <div class="panel-body">
+                            <a href="https://github.com/mguldberg">
+                                <img src="assets/images/github.png" class="socialimages" alt="Github">
+                            </a>
+                            <a href="https://www.linkedin.com/in/martin-guldberg/">
+                                <img src="assets/images/linkedin.png" class="socialimages" alt="LinkedIn">
+                            </a>
+                            <a href="https://stackexchange.com/users/12834892/martin-g">
+                                <img src="assets/images/stackoverflow.png" class="socialimages" alt="Stack Overflow">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- close second column in row in middle container - contains the connect with me content -->
+            </div>
+        </div>
+            <!-- close bootstrap container - leveraging the auto sizing - no wallpaper on this -->
+    </div>
+    <!-- close middle section vertically, inludes the wallpaper and main content -->
+
+
+    <!-- bootstrap sticky footer -->
+        <footer class="container-fluid">
+            <div class="sticky-bottom">
+                <h5 class="text-center">Copyright &copy; Martin Guldberg</h5>
+            </div>
+        </footer>
+
+
+
+        <!-- jQuery CDN -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+
+        <!-- Popper JS CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+
+        <!-- Bootstrap JavaScript CDN -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
+</html>

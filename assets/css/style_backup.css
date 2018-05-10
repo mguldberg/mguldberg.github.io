@@ -24,17 +24,17 @@ body {
 links or what happens when a link is clicked */
 a, a:visited, a:active {
     text-decoration: none;
-    color: #268487;
+    color: #4aaaa5;
   }
 
 a:hover {
     text-decoration: underline;
-    color: #268487;
+    color: #4aaaa5;
 }
 
 #nametitle {
-    background: #90ad56;
-    color: #24436C;
+    background: #4aaaa5;
+    color: #ffffff;
     padding: 35px;
     font-weight: bold;
 }
@@ -44,7 +44,7 @@ a.nav-link {
     padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
-    color: #90ad56;
+    /* border-left: 3px solid #eee; */
   }
   
   /* a.nav-link:first-child {
@@ -54,7 +54,7 @@ a.nav-link {
 
 /* sets up header fixed width, and centers text and sets */
 .container-top {
-    background: #24436C;
+    background: #ffffff;
     /* width: 960px; */
     font-family: 'Georgia', Times, Times New Roman, serif;
     /* margin: 0 auto; */
@@ -62,7 +62,7 @@ a.nav-link {
 }
   
 .container-middle {
-    background-image: url("../images/escheresque/escheresque.png");
+    background-image: url("../images/45degree_fabric.png");
     /* width: auto; */
     font-family: 'Georgia', Times, Times New Roman, serif;
     overflow: hidden;
@@ -82,19 +82,19 @@ a.nav-link {
     margin-bottom: 110px;
     margin-left: auto;
     margin-right: auto;
-    /* border: 1px solid #ddd; */
+    border: 1px solid #ddd;
     
 }
 
 #about-me-container {
-    /* background: #eee; */
+    background: #ffffff;
     padding: 30px;
     margin-bottom: 20px;
 
 }
 
 #aboutmetext {
-    color:  #375a28;
+    color:  #777777;
     text-align: left;
 }
 
@@ -105,20 +105,17 @@ a.nav-link {
 }
 
 .navbar-toggler-icon{
-    /* background-color: #90ad56; */
-    color: black;
+    background-color: #4aaaa5;
 }
 button.navbar-toggler{
-    /* background-color: #eee; */
-    color:#90ad56;
-    
+    background-color: #4aaaa5;
 }
 
 /* used for name text - top left */
 h1#aboutmetitle, h3 {
     text-align: left;
-    color: #375a28;
-    /* background: #ffffff; */
+    color: #4aaaa5;
+    background: #ffffff;
     padding-bottom: 20px; 
     border-bottom: 2px solid #eee;
     margin-bottom: 15px;
@@ -141,8 +138,6 @@ h3 {
     padding: 30px;
     background: #fff;
     border: 1px solid #ddd;
-    border-radius: 15px;
-
 }
 
 div {
@@ -169,12 +164,10 @@ div {
      code in body up above */
    /* font for copyright text in footer */
 
-   footer.container-fluid{
-       padding-left:0;
-       padding-right:0;
-   }
      div.sticky-bottom{
-        border-top: 8px solid #90ad56;
+        border-top: 8px solid #4aaaa5;
+
+
         background-color: #666;
         height:50px;
     }
@@ -207,7 +200,7 @@ div {
         left: 0;
         bottom:15px;
         font-size: 16px;
-        background-color: #24436c;
+        background-color: #4aaaa5;
         font-family: 'Georgia', Times, Times New Roman, serif;
         color: #ffffff;
         text-align: center;
@@ -247,7 +240,7 @@ input[type=text], textarea {
 
 /* input section used in Contact.html code */
 input[type=submit] {
-    background-color: #24436c;
+    background-color: #4aaaa5;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -258,7 +251,7 @@ input[type=submit] {
 /* formatting for contact content */
 .contacttext{
     text-align: left;
-    color: #24436C;
+    color: #4aaaa5;
 }
 
 
@@ -269,11 +262,6 @@ as my name in the title */
     #nametitle,
     #aboutmetitle,
     h3.panel-title {
-        font-size: 17px;
-        padding: 20px;
-    }
-    div#about-me-container{
-        padding:0;
-    }
-
+    font-size: 17px;
+    
 }
