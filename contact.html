@@ -17,6 +17,8 @@
     <!-- local CSS settings which will leverage the Bootstrap classes and layout -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+
 
 </head>
 
@@ -38,9 +40,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
-                    <li class="nav-item active"><!-- active tag for a different color to denote the page we are currently on -->
+                    <li class="nav-item active">
+                        <!-- active tag for a different color to denote the page we are currently on -->
                         <a class="nav-link" href="contact.html">Contact
-                                <span class="sr-only">(current)</span>
+                            <span class="sr-only">(current)</span>
                         </a>
                     </li>
                 </ul>
@@ -57,7 +60,8 @@
             <div class="row middle-content-container">
 
                 <!-- open first column in row in middle container - contains the content -->
-                <div class=" col-md-8"> <!-- col-sm-12 -->
+                <div class=" col-md-8">
+                    <!-- col-sm-12 -->
                     <div id="about-me-container">
                         <div class="page-header">
                             <h3>Contact</h3>
@@ -67,9 +71,23 @@
                         <div class="row">
                             <div class="col-md-12">
 
-                                <!-- set up form for people to submit to contact me - button and form don't do anything with the data yet.  -->
+                                <div>
+                                    <p id="aboutmetext">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i> guldberg@sbcglobal.net
+                                        <br>
+                                        <br>
+                                        <i class="fa fa-mobile-alt" aria-hidden="true" style="font-size:24px"></i> 6127230595
+                                        
+                                        <!-- <br>My expertise is in leading my team to architect, plan, and operate highly available
+                                        24/7 systems and networks. These include SONET, Ethernet, IMS, and VoLTE.
+                                        <br> 
+                                        <br> Additionly, I've quickly learned Full Stack Web development. In my spare time I
+                                        enjoy working on home automation projects linked to an Android mobile app. -->
+                                    </p>
+                                </div>
+                                <!-- set up form for people to submit to contact me - button and form don't do anything with the data yet. 
                                 <section id="middletextcontent">
-                                    <form action="#">
+                                    <form action="https://personal-financial-app.herokuapp.com/contact_mg" method="post" enctype="text/plain">
                                         <label class="contacttext">Name</label>
                                         <input type="text" class="contacttext" name="fullname" placeholder="John Smith">
 
@@ -82,7 +100,7 @@
                                         <input type="submit" value="Submit">
                                     </form>
 
-                                </section>
+                                </section> -->
                             </div>
                         </div>
                         <!-- close row in middle content container -->
@@ -93,20 +111,18 @@
 
 
                 <!-- open second column in row in middle container - contains the connect with me content -->
-                <div class="col-md-4"> <!-- col-sm-12 -->
+                <div class="col-md-4">
+                    <!-- col-sm-12 -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h3 class="panel-title">Connect With Me</h3>
                         </div>
-                        <div class="panel-body">
+                        <div class="panel-body text-center">
                             <a href="https://github.com/mguldberg">
                                 <img src="assets/images/github.png" class="socialimages" alt="Github">
                             </a>
                             <a href="https://www.linkedin.com/in/martin-guldberg/">
                                 <img src="assets/images/linkedin.png" class="socialimages" alt="LinkedIn">
-                            </a>
-                            <a href="https://stackexchange.com/users/12834892/martin-g">
-                                <img src="assets/images/stackoverflow.png" class="socialimages" alt="Stack Overflow">
                             </a>
                         </div>
                     </div>
@@ -115,28 +131,28 @@
             </div>
         </div>
         <!-- close bootstrap container - leveraging the auto sizing - no wallpaper on this -->
-    </div>    
+    </div>
     <!-- close middle section vertically, inludes the wallpaper and main content -->
 
 
     <!-- bootstrap sticky footer -->
-        <footer class="container-fluid">
-            <div class="sticky-bottom">
-                <h5 class="text-center">Copyright &copy; Martin Guldberg</h5>
-            </div>
-        </footer>
+    <footer class="container-fluid">
+        <div class="sticky-bottom">
+            <h5 class="text-center">Copyright &copy; Martin Guldberg</h5>
+        </div>
+    </footer>
 
-        <!-- jQuery CDN -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
 
-        <!-- Popper JS CDN -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
+    <!-- Popper JS CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
 
-        <!-- Bootstrap JavaScript CDN -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
 </body>
 
